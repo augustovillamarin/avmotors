@@ -383,6 +383,40 @@ a:hover {
   margin-top: 10rem;
   padding-top: 50px; }
 
+/*Resolucion para dispositivos moviles*/
+@media (min-width: 574px) and (max-width: 767px) {
+  /*Nav index*/
+  .logoPrincipal {
+    margin-left: 110px; }
+  .tituloNav {
+    font-size: 60px;
+    margin-left: 20px; }
+  .navRedes {
+    font-size: 30px;
+    margin-left: 20px; }
+  .logos {
+    margin-left: 90px; }
+  /*Contenido index*/
+  .tecnico {
+    margin-top: 5rem; }
+  .card-header {
+    font-size: 40px; }
+  .imgFondo {
+    height: 50rem; }
+  .mapa {
+    width: 300px; }
+  ul li {
+    font-size: 25px; }
+  /*footer*/
+  .container-footer {
+    margin-top: 20px;
+    padding-top: 20px; }
+  .logo {
+    margin-left: 13rem; }
+  .ahora12 {
+    margin-top: 20rem;
+    margin-left: 20px; } }
+
 body {
   margin-left: 10px;
   margin-right: 10px;

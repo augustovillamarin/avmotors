@@ -1,0 +1,391 @@
+/*Cards Index*/
+.card {
+  margin-top: 20px;
+  border-radius: 20px;
+  border-color: transparent;
+  color: white;
+  background-color: transparent; }
+
+.card img {
+  border-radius: 0px;
+  padding-top: 20px; }
+
+.card-title {
+  font-family: 'Teko', sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #ff2828; }
+
+.carousel {
+  padding-top: 20px; }
+
+.carousel.carousel-fade .carousel-item {
+  display: block;
+  opacity: -0;
+  transition: opacity ease-out .3s; }
+
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1 !important; }
+
+.cardServicio {
+  width: 20rem; }
+
+/*Card mapa*/
+.card-header {
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  color: #fc8947;
+  font-size: 100px; }
+
+.mapa {
+  padding-top: -20;
+  border-radius: 20px; }
+
+.imgFondo {
+  padding-top: 20px; }
+
+ul li img {
+  padding-top: 100px;
+  padding-left: 10px; }
+
+ul img {
+  padding-top: 40px; }
+
+ul li {
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  margin: -55px;
+  padding-top: 20px;
+  padding-left: 100px;
+  text-align: left;
+  color: #f7c5a5;
+  list-style: none; }
+
+.btn {
+  border-color: grey;
+  background-color: #272727; }
+
+/*Cards noticias*/
+.container_noticias-fluid {
+  margin-top: -80px; }
+
+.card-deck {
+  margin-top: 50px; }
+
+/*Motocicletas*/
+.parallax {
+  border-radius: 20px;
+  margin-top: 40px;
+  width: 100%;
+  height: 50%;
+  background-image: url("../assets/img/motocicletas/honda.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.parallax2 {
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 100%;
+  height: 50%;
+  background-image: url("../assets/img/motocicletas/yamaha.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.parallax3 {
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 100%;
+  height: 50%;
+  background-image: url("../assets/img/motocicletas/ktm.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.honda {
+  font-family: 'Teko', sans-serif;
+  color: #ff3e3e;
+  font-size: 70px; }
+
+a {
+  text-decoration: none;
+  transform: all .4s; }
+
+a:hover {
+  text-decoration: none;
+  transform: scale(1.1); }
+
+.yamaha {
+  font-family: 'Teko', sans-serif;
+  color: #3232fa;
+  font-size: 70px; }
+
+.ktm {
+  font-family: 'Teko', sans-serif;
+  color: orangered;
+  font-size: 70px; }
+
+/*Motos Honda*/
+.container_motoshonda {
+  margin-top: 5rem; }
+
+.ahora12 {
+  margin-left: 20rem;
+  margin-top: -5rem;
+  float: right;
+  position: absolute; }
+
+/*Contacto*/
+.card_contacto-header {
+  margin-left: 50px;
+  text-align: left;
+  font-family: 'Teko', sans-serif;
+  color: #fc8947;
+  font-size: 100px; }
+
+/*NAV*/
+.logoPrincipal {
+  margin-top: 20px;
+  border-radius: 20px; }
+
+.tituloNav {
+  margin-top: 20px;
+  margin-left: -100px;
+  border: solid 1px #4d4949;
+  border-radius: 20px;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  font-size: 70px;
+  color: #f83737; }
+
+.navRedes {
+  border: solid 1px #4d4949;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 15rem;
+  margin-top: 50px;
+  color: #ff6666;
+  font-family: 'Teko', sans-serif; }
+
+.logoNav {
+  margin: 50px;
+  padding-right: 10px;
+  margin-right: 0; }
+
+.logoNav:hover {
+  border-radius: 5px;
+  background-color: #fc5555; }
+
+#header {
+  position: absolute;
+  z-index: 10;
+  width: 98%; }
+
+.navbar {
+  font-family: 'Teko', sans-serif;
+  padding-top: 50px;
+  color: black;
+  font-size: 20px; }
+
+.nav-item {
+  padding: 80px;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.nav-link {
+  color: #363636 !important;
+  letter-spacing: 2px;
+  font-size: 1em;
+  font-weight: 700; }
+
+.nav-link:hover {
+  background: #faf8f8;
+  color: black;
+  border-radius: 5px;
+  transition: all 0.06 ease 0s; }
+
+/*NAV BAR 2*/
+.navbar_2 {
+  border-radius: 10px;
+  height: 80px;
+  padding-right: 20px;
+  padding-top: 0;
+  padding-bottom: 100px; }
+
+/*footer*/
+.titulo {
+  font-family: 'Teko', sans-serif;
+  padding-right: 20px;
+  color: white;
+  text-align: center;
+  font-size: 60px; }
+
+.subtitulo {
+  font-family: 'Teko', sans-serif;
+  color: white;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 30px; }
+
+.subtitulo:hover {
+  border-radius: 50px;
+  background-color: #ff5050; }
+
+.redesSociales {
+  font-family: 'Teko', sans-serif;
+  padding-right: 20px;
+  color: white;
+  text-align: center;
+  font-size: 60px; }
+
+.logo {
+  border-radius: 10px;
+  margin-left: 24rem; }
+
+.logo:hover {
+  background-color: #ff5050; }
+
+.logo2 {
+  border-radius: 20px;
+  margin-left: 10px; }
+
+.logo2:hover {
+  background-color: #ff5050; }
+
+.creador {
+  font-family: 'Teko', sans-serif;
+  color: white;
+  margin-top: 40px;
+  text-align: center; }
+
+/*Encabezados index*/
+.titulo_servicio {
+  font-family: 'Teko', sans-serif;
+  color: #f87440;
+  font-size: 60px; }
+
+/*Encabezado novedades*/
+.noticias {
+  margin-top: 30px;
+  border-radius: 10px;
+  font-family: 'Teko', sans-serif;
+  color: white;
+  padding-top: 5px;
+  text-align: left;
+  font-size: 100px;
+  color: #fdfdfd; }
+
+/*Encabezado tabla*/
+.titulo_motogp {
+  font-family: 'Teko', sans-serif;
+  color: #e00707;
+  font-size: 50px;
+  padding-top: 80px; }
+
+.top {
+  font-family: 'Teko', sans-serif;
+  color: #ff7979;
+  font-size: 25px; }
+
+/*Encabezado motocicletas*/
+.titulo_marcas {
+  margin-top: 20rem;
+  font-family: 'Teko', sans-serif;
+  color: white;
+  font-size: 100px; }
+
+/*Encabezado contacto*/
+.titulo_consulta {
+  padding-left: 100px;
+  font-family: 'Teko', sans-serif;
+  color: #fa4040;
+  font-size: 80px; }
+
+.titulo_text {
+  padding-top: 20px;
+  font-family: 'Teko', sans-serif;
+  color: #fa4040;
+  font-size: 40px; }
+
+.titulo_financiacion {
+  font-family: 'Teko', sans-serif;
+  font-size: 60px;
+  color: #42d335; }
+
+.table {
+  background-color: white; }
+
+.moto_gp {
+  margin-top: -100px;
+  float: right;
+  width: 100px;
+  transition: transform .0; }
+
+.moto_gp:hover {
+  transform: scale(1.1); }
+
+.breadcrumb {
+  margin-top: 20px;
+  background-color: transparent; }
+
+.breadcrumb li {
+  color: white; }
+
+/*footers*/
+.container-footer {
+  border-radius: 20px;
+  background-color: #141414;
+  padding-top: 50px;
+  margin-top: 10rem; }
+
+.container_novedades-footer {
+  background-color: #141414;
+  margin-top: 50px;
+  padding-top: 50px; }
+
+.container_motocicletas-footer {
+  background-color: #141414;
+  margin-top: 21rem;
+  padding-top: 50px; }
+
+.container_honda-footer {
+  background-color: #141414;
+  margin-top: 100px;
+  padding-top: 50px; }
+
+/*Motos Honda*/
+.container_motoshonda {
+  margin-top: 5px;
+  margin-left: 80px; }
+
+.container_form-fluid {
+  margin-left: 100px; }
+
+/*Financiacion*/
+.container_financiacion-fluid {
+  margin-left: 20px; }
+
+/*contacto*/
+.container_contacto-fluid {
+  padding-top: 50px;
+  margin-left: 20px;
+  margin-right: 100px; }
+
+.container_contacto-footer {
+  background-color: #141414;
+  margin-top: 10rem;
+  padding-top: 50px; }
+
+body {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #2c2c2c; }

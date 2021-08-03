@@ -1,0 +1,156 @@
+/*Cards Index*/
+.card {
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    background-color: transparent;
+}
+.card img {
+    border-radius: 0px;
+    padding-top: 20px;
+
+}
+.card-title {
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: rgb(255, 40, 40);
+}
+.carousel {
+    padding-top: 20px;
+}
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: -0;
+    transition: opacity ease-out .3s;
+}
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+.cardServicio {
+    width: 20rem;
+}
+/*Card mapa*/
+.card-header {
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    color: rgb(252, 137, 71);
+    font-size: 100px;
+}
+.mapa {
+    padding-top: -20;
+    border-radius: 20px;
+}
+.imgFondo {
+    padding-top: 20px;
+    
+}
+ul li img {
+    padding-top: 100px;
+    padding-left: 10px;
+}
+ul img {
+    padding-top: 40px;
+}
+ul li {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    margin: -55px;
+    padding-top: 20px;
+    padding-left: 100px;
+    text-align: left;
+    color: rgb(247, 197, 165);
+    list-style: none;
+}
+.btn {
+    border-color: grey;
+    background-color: rgb(39, 39, 39);
+}
+/*Cards noticias*/
+.container_noticias-fluid {
+    margin-top: -80px;
+}
+.card-deck {
+    margin-top: 50px;
+}
+/*Motocicletas*/
+.parallax {
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 100%;
+    height: 50%;
+    background-image: url('../assets/img/motocicletas/honda.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.parallax2 {
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 50%;
+    background-image: url('../assets/img/motocicletas/yamaha.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parallax3 {
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 50%;
+    background-image: url('../assets/img/motocicletas/ktm.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.honda {
+    font-family: 'Teko', sans-serif;
+    color: rgb(255, 62, 62);
+    font-size: 70px;
+}
+a { 
+    text-decoration: none;
+    transform: all .4s;
+ }
+a:hover { 
+    text-decoration: none ; 
+    transform: scale(1.1);
+}
+
+.yamaha {
+    font-family: 'Teko', sans-serif;
+    color: rgb(50, 50, 250);
+    font-size: 70px;
+}
+.ktm {
+    font-family: 'Teko', sans-serif;
+    color: orangered;
+    font-size: 70px;
+}
+/*Motos Honda*/
+.container_motoshonda {
+    margin-top: 5rem;
+}
+.ahora12 {
+    margin-left: 20rem;
+    margin-top: -5rem;
+    float: right;
+    position: absolute;
+}
+/*Contacto*/
+.card_contacto-header {
+    margin-left: 50px;
+    text-align: left;
+    font-family: 'Teko', sans-serif;
+    color: rgb(252, 137, 71);
+    font-size: 100px;
+}

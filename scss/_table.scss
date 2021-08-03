@@ -1,0 +1,12 @@
+.table {
+    background-color: white;
+}
+.moto_gp {
+    margin-top: -100px;
+    float: right;
+    width: 100px;
+    transition: transform .0;
+}
+.moto_gp:hover {
+    transform: scale(1.1);
+}

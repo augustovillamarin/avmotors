@@ -1,0 +1,16 @@
+@import "cards";
+@import "navbar";
+@import "footer";
+@import "encabezados";
+@import "table";
+@import "breadcrumb";
+@import "containers";
+body {
+   margin: {
+       left: 10px;
+       right: 10px;
+       top: 20px;
+       bottom: 20px;
+   }
+    background-color: rgb(44, 44, 44);
+}

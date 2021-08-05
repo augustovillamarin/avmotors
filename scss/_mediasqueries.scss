@@ -1,5 +1,5 @@
 /*Resolucion para dispositivos moviles*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+@media only screen and (min-width : 320px) and (max-width : 480px){
     /*Nav index*/
     .logoPrincipal {
         width: 15rem;
@@ -51,24 +51,29 @@
         margin-left: 20px;        
     }
 }
-@media only screen and (min-width: 767px) and (max-width: 1200px) {
+@media (min-width: 481px) and (max-width: 767px) {
+
 /*Nav index*/
 .logoPrincipal {
-    margin-left: 110px;
+    margin-left: 160px;
 }
 .tituloNav {
-    font-size: 60px;
+    font-size: 30px;
     margin-left: 20px;
 }
 .navRedes {
+    border: none;
     font-size: 30px;
-    margin-left: 20px;
-    
+    margin-left: 30px;
 }
-.logos {
-    margin-left: 90px;
+.logoNav {
+    width: 40px;
+    margin-left: 130px;
 }
 /*Contenido index*/
+.card__yamaha-img-top {
+    height: 120px;
+}
 .tecnico {
     margin-top: 5rem;
 }
@@ -84,13 +89,129 @@
 ul li {
     font-size: 25px;
 }
+.card-title {
+    font-size: 20px;
+}
+.card-text {
+    font-size: 12px;
+}
 /*footer*/
 .container-footer {
     margin-top: 20px;
     padding-top: 20px;
 }
 .logo {
-    margin-left: 13rem;
+    margin-left: 17rem;
+}
+.ahora12 {
+    margin-top: 20rem;
+    margin-left: 20px;        
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*Nav index*/
+.logoPrincipal {
+    margin-left: 10px;
+}
+.tituloNav {
+    border: none;
+    font-size: 40px;
+    padding-left: 50px;
+    margin-left: 100px;
+}
+.navRedes {
+   display: none;
+}
+.logoNav {
+    width: 40px;
+    margin-left: 10px;
+}
+/*Contenido index*/
+.card__yamaha-img-top {
+    height: 150px;
+}
+.tecnico {
+    margin-top: 5rem;
+}
+.card-header {
+    font-size: 40px;
+}
+.imgFondo {
+    height: 50rem;
+}
+.mapa {
+    width: 300px;
+}
+ul li {
+    font-size: 25px;
+}
+.card-title {
+    font-size: 20px;
+}
+.card-text {
+    font-size: 12px;
+}
+/*footer*/
+.container-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.logo {
+    margin-left: 20rem;
+}
+.ahora12 {
+    margin-top: 20rem;
+    margin-left: 20px;        
+}
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+ /*Nav index*/
+ .logoPrincipal {
+    margin-left: 10px;
+}
+.tituloNav {
+    font-size: 40px;
+    margin-left: 50px;
+}
+.navRedes {
+   margin-left: 20px;
+}
+.logoNav {
+    width: 40px;
+    margin-left: 50px;
+}
+/*Contenido index*/
+.card__yamaha-img-top {
+    height: 260px;
+}
+.tecnico {
+    margin-top: 5rem;
+}
+.card-header {
+    font-size: 40px;
+}
+.imgFondo {
+    height: 50rem;
+}
+.mapa {
+    width: 300px;
+}
+ul li {
+    font-size: 25px;
+}
+.card-title {
+    font-size: 20px;
+}
+.card-text {
+    font-size: 12px;
+}
+/*footer*/
+.container-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.logo {
+    margin-left: 15rem;
 }
 .ahora12 {
     margin-top: 20rem;

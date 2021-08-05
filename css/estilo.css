@@ -384,18 +384,19 @@ a:hover {
   padding-top: 50px; }
 
 /*Resolucion para dispositivos moviles*/
-@media (max-width: 575px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /*Nav index*/
   .logoPrincipal {
-    margin-left: 40px; }
+    width: 15rem;
+    margin-left: 25px; }
   .tituloNav {
     font-size: 30px;
     margin-left: 20px; }
   .navRedes {
     font-size: 30px;
     margin-left: 20px; }
-  .logos {
-    margin-left: 10px; }
+  .logoNav {
+    width: 30px; }
   /*Contenido index*/
   .tecnico {
     margin-top: 5rem; }
@@ -404,15 +405,19 @@ a:hover {
   .imgFondo {
     height: 50rem; }
   .mapa {
-    width: 300px; }
+    width: 200px; }
+  ul img {
+    padding-right: 20px;
+    width: 40px; }
   ul li {
-    font-size: 25px; }
+    padding-right: 35px;
+    font-size: 20px; }
   /*footer*/
   .container-footer {
     margin-top: 20px;
     padding-top: 20px; }
   .logo {
-    margin-left: 13rem; }
+    margin-left: 6rem; }
   .ahora12 {
     margin-top: 20rem;
     margin-left: 20px; } }

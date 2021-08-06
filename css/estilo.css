@@ -42,6 +42,7 @@
   border-radius: 20px; }
 
 .imgFondo {
+  border-radius: 20px;
   padding-top: 20px; }
 
 ul li img {
@@ -156,18 +157,14 @@ a:hover {
   border-radius: 20px; }
 
 .tituloNav {
-  margin-top: 20px;
-  margin-left: -100px;
-  border: solid 1px #4d4949;
-  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: -260px;
   font-family: 'Orbitron', sans-serif;
   text-align: center;
   font-size: 70px;
   color: #f83737; }
 
 .navRedes {
-  border: solid 1px #4d4949;
-  border-radius: 20px;
   text-align: center;
   margin-left: 15rem;
   margin-top: 50px;

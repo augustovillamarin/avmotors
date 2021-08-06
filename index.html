@@ -13,21 +13,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Orbitron&display=swap" rel="stylesheet">
+    <!--AOS library-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>AV MOTORS</title>
   </head>
   <body>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xs-12 col-md-3 col-lg-3">
+          <div data-aos="flip-right" class="col-xs-12 col-md-3 col-lg-3">
             <img class="logoPrincipal" src="assets/img/LOGO.png" width="300px" height="100px" alt="">
           </div>
           <div class="col-xs-12 col-md-3 col-lg-3">
             <h1 class="tituloNav">Av MOTORS</h1>
           </div>
           <div class="col-xs-12 col-md-3 col-lg-3">
-            <h2 class="navRedes">Redes Sociales:</h2>
+            <h2 data-aos="fade-down" class="navRedes">Redes Sociales:</h2>
           </div>
-          <div class="col-xs-12 col-md-3 col-lg-3 logos">
+          <div data-aos="fade-down" class="col-xs-12 col-md-3 col-lg-3 logos">
             <img class="logoNav" src="assets/img/Iconos/facebook.png" width="50px" alt="">
             <img class="logoNav" src="assets/img/Iconos/instagram .png" width="50px" alt="">
             <img class="logoNav" src="assets/img/Iconos/correo.png" width="50px" alt="">
@@ -98,7 +100,7 @@
       <!--CARDS-->
       <div class="container-fluid">
               <div class="card-deck">
-                    <div class="col-xs-12 col-md-12 col-lg-4 card">
+                    <div data-aos="zoom-in" class="col-xs-12 col-md-12 col-lg-4 card">
                       <img src="assets/img/Cards/cbr.jpg" class="card-img-top" alt="cbr">
                         <div class="card-body">
                             <h5 class="card-title">Honda Motors</h5>
@@ -106,7 +108,7 @@
                           <a href="https://motos.honda.com.ar/" target="_blank" class="btn btn-primary">Honda Oficial</a>
                       </div>
                       </div>
-                      <div class="col-xs-12 col-md-12 col-lg-4 card">
+                      <div data-aos="zoom-in" class="col-xs-12 col-md-12 col-lg-4 card">
                       <img src="assets/img/Cards/r1.jpg" height="56%" class="card__yamaha-img-top" alt="r1">
                         <div class="card-body">
                             <h5 class="card-title">Yamaha Motors</h5>
@@ -114,7 +116,7 @@
                             <a href="https://www.yamaha-motor.com.ar/" target="_blank" class="btn btn-primary">Yamaha Oficial</a>
                       </div>
                       </div>
-                  <div class="col-xs-12 col-md-12 col-lg-4 card">
+                  <div data-aos="zoom-in" class="col-xs-12 col-md-12 col-lg-4 card">
                       <img src="assets/img/Cards/ktm.jpg" class="card-img-top" alt="ktm">
                       <div class="card-body">
                           <h5 class="card-title">KTM Motors</h5>
@@ -126,7 +128,7 @@
       </div>
       <section class="container-fluid">
         <div class="row">
-          <div class="col-xs-12 col-lg-6 ubicacion">
+          <div data-aos="fade-right" data-aos-duration="1000" class="col-xs-12 col-lg-6 ubicacion">
             <img class="imgFondo" src="assets/img/01_08_2021 6_49_05.png" width="100%" height="115%" alt="">
             <div class="card-img-overlay">
               <h5 class="card-header">¿Donde estamos?</h5>
@@ -142,7 +144,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-lg-6 tecnico">
+          <div data-aos="fade-left" data-aos-duration="1000" class="col-xs-12 col-lg-6 tecnico">
             <div class="card">
               <img src="assets/img/mecanico.jpg" class="card-img-top" alt="mecanico">
               <div class="card-body">
@@ -174,16 +176,18 @@
           </div>
         </div>
       </div>
-        
-    
-    
-
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+    </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

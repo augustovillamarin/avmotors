@@ -370,36 +370,39 @@ a:hover {
   padding-top: 50px; }
 
 /*Resolucion para dispositivos moviles*/
-@media only screen and (min-width: 320px) and (max-width: 360px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   /*Nav index*/
+  body {
+    margin: none;
+    width: 100%; }
   .logoPrincipal {
-    width: 15rem;
-    margin-left: 40px; }
+    width: 100%;
+    margin-left: 35px; }
   .tituloNav {
+    width: 100%;
     font-size: 30px;
-    margin-left: 10px; }
-  .navRedes {
-    font-size: 30px;
-    margin-left: 10px; }
-  .logoNav {
-    width: 40px;
     margin-left: 50px; }
+  .navRedes {
+    display: none; }
+  .logoNav {
+    display: none; }
   /*Contenido index*/
+  .carrousel-inner {
+    width: 100%; }
   .tecnico {
-    margin-top: 20px; }
+    margin-top: 0px; }
   .card-header {
     font-size: 40px; }
   .imgFondo {
     height: 45rem; }
   .mapa {
-    width: 280px; }
+    width: 200px; }
   ul img {
-    margin-right: 50px;
-    padding-right: 20px;
-    width: 40px; }
+    display: none; }
   ul li {
-    padding-right: 35px;
-    font-size: 20px; }
+    padding-left: 20px;
+    padding-top: 100px;
+    font-size: 17px; }
   /*footer*/
   .container-footer {
     margin-top: 20px;
@@ -412,21 +415,19 @@ a:hover {
 
 @media (min-width: 481px) and (max-width: 767px) {
   /*Nav index*/
+  body {
+    width: 100%; }
   .logoPrincipal {
-    margin-left: 160px; }
+    width: 100%; }
   .tituloNav {
-    font-size: 30px;
-    margin-left: 20px; }
+    margin-left: 10px;
+    width: 100%;
+    font-size: 30px; }
   .navRedes {
-    border: none;
-    font-size: 30px;
-    margin-left: 30px; }
+    display: none; }
   .logoNav {
-    width: 40px;
-    margin-left: 130px; }
+    display: none; }
   /*Contenido index*/
-  .card__yamaha-img-top {
-    height: 120px; }
   .tecnico {
     margin-top: 5rem; }
   .card-header {
@@ -435,7 +436,11 @@ a:hover {
     height: 50rem; }
   .mapa {
     width: 300px; }
+  ul img {
+    display: none; }
   ul li {
+    padding-left: 20px;
+    padding-top: 100px;
     font-size: 25px; }
   .card-title {
     font-size: 20px; }
@@ -446,7 +451,7 @@ a:hover {
     margin-top: 20px;
     padding-top: 20px; }
   .logo {
-    margin-left: 17rem; }
+    margin-left: 11.5rem; }
   .ahora12 {
     margin-top: 20rem;
     margin-left: 20px; } }

@@ -377,11 +377,11 @@ a:hover {
     width: 100%; }
   .logoPrincipal {
     width: 100%;
-    margin-left: 35px; }
+    margin-left: none; }
   .tituloNav {
+    margin-left: 10px;
     width: 100%;
-    font-size: 30px;
-    margin-left: 50px; }
+    font-size: 30px; }
   .navRedes {
     display: none; }
   .logoNav {
@@ -408,7 +408,7 @@ a:hover {
     margin-top: 20px;
     padding-top: 20px; }
   .logo {
-    margin-left: 7rem; }
+    margin-left: 11rem; }
   .ahora12 {
     margin-top: 20rem;
     margin-left: 20px; } }

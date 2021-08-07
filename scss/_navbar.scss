@@ -41,15 +41,15 @@
     text-transform: uppercase;
 }
 .nav-link {
-    color: rgb(253, 80, 80) !important;
+    color: rgb(255, 255, 255) !important;
     letter-spacing: 2px;
-    font-size: 1em;
+    font-size: 20px;
     font-weight: 700;
 }
 .nav-link:hover {
-    background: rgb(58, 58, 58);
-    color: black;
-    border-radius: 5px;
-    transition: all 0.06 ease 0s;
+    color: black !important; 
+    background: rgb(252, 252, 252);
+    padding: 5px;
+    transition: all 0.08 ease 0.0s;
 }
 /*NAV BAR 2*/

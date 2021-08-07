@@ -193,16 +193,16 @@ a:hover {
   text-transform: uppercase; }
 
 .nav-link {
-  color: #fd5050 !important;
+  color: white !important;
   letter-spacing: 2px;
-  font-size: 1em;
+  font-size: 20px;
   font-weight: 700; }
 
 .nav-link:hover {
-  background: #3a3a3a;
-  color: black;
-  border-radius: 5px;
-  transition: all 0.06 ease 0s; }
+  color: black !important;
+  background: #fcfcfc;
+  padding: 5px;
+  transition: all 0.08 ease 0.0s; }
 
 /*NAV BAR 2*/
 /*footer*/

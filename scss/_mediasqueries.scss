@@ -1,9 +1,10 @@
 /*Resolucion para dispositivos moviles*/
-@media only screen and (min-width : 320px) and (max-width : 480px){
+@media only screen and (min-width : 320px) and (max-width : 360px){
     /*Nav index*/
+  
     .logoPrincipal {
         width: 15rem;
-        margin-left: 60px;
+        margin-left: 40px;
     }
     .tituloNav {
         font-size: 30px;
@@ -16,7 +17,7 @@
     }
     .logoNav {
         width: 40px;
-        margin-left: 60px;
+        margin-left: 50px;
     }
     /*Contenido index*/
     .tecnico {
@@ -46,7 +47,7 @@
         padding-top: 20px;
     }
     .logo {
-        margin-left: 8rem;
+        margin-left: 7rem;
     }
     .ahora12 {
         margin-top: 20rem;

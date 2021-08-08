@@ -13,5 +13,9 @@ body {
        top: 20px;
        bottom: 20px;
    }
-    background-color: rgb(44, 44, 44);
+   background: linear-gradient(to top, rgb(0, 0, 0) , rgb(70, 70, 70) , rgb(20, 20, 20) );
+}
+header {
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
 }

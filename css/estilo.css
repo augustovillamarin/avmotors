@@ -1,4 +1,8 @@
 /*Cards Index*/
+.carousel {
+  margin-left: 40px;
+  width: 80%; }
+
 .card {
   margin-top: 20px;
   border-radius: 20px;
@@ -38,6 +42,8 @@
   font-size: 100px; }
 
 .mapa {
+  border: 1px solid orangered;
+  margin-left: 45px;
   padding-top: -20;
   border-radius: 20px; }
 
@@ -154,31 +160,32 @@ a:hover {
 /*NAV*/
 .logoPrincipal {
   margin-top: 20px;
-  border-radius: 20px; }
+  border-radius: 5px; }
 
 .tituloNav {
   margin-top: 40px;
-  margin-left: -260px;
+  margin-left: -25rem;
   font-family: 'Orbitron', sans-serif;
   text-align: center;
-  font-size: 70px;
+  font-size: 50px;
   color: #f83737; }
 
 .navRedes {
+  letter-spacing: 2px;
   text-align: center;
   margin-left: 15rem;
   margin-top: 50px;
-  color: #ff6666;
+  color: #b67575;
   font-family: 'Teko', sans-serif; }
 
 .logoNav {
   margin: 50px;
   padding-right: 10px;
-  margin-right: 0; }
+  margin-right: 0;
+  transition: 0.5s; }
 
 .logoNav:hover {
-  border-radius: 5px;
-  background-color: #fc5555; }
+  transform: scale(1.2); }
 
 .navbar {
   height: 100px;
@@ -193,15 +200,14 @@ a:hover {
   text-transform: uppercase; }
 
 .nav-link {
-  color: white !important;
-  letter-spacing: 2px;
+  color: #c7c3c3 !important;
+  letter-spacing: 4px;
   font-size: 20px;
   font-weight: 700; }
 
 .nav-link:hover {
-  color: black !important;
-  background: #fcfcfc;
-  padding: 5px;
+  border-bottom: 1px solid red;
+  padding-bottom: 5px;
   transition: all 0.08 ease 0.0s; }
 
 /*NAV BAR 2*/

@@ -1,31 +1,32 @@
 /*NAV*/
 .logoPrincipal {
     margin-top: 20px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .tituloNav {
     margin-top: 40px;
-    margin-left: -260px;
+    margin-left: -25rem;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     color: rgb(248, 55, 55);
 }
 .navRedes {
+    letter-spacing: 2px;
     text-align: center;
     margin-left: 15rem;
     margin-top: 50px;
-    color: rgb(255, 102, 102);
+    color: rgb(182, 117, 117);
     font-family: 'Teko', sans-serif;
 }
 .logoNav {
     margin: 50px;
     padding-right: 10px;
     margin-right: 0;
+    transition: 0.5s;
 }
 .logoNav:hover {
-    border-radius: 5px;
-    background-color: rgb(252, 85, 85);
+    transform: scale(1.2);
 }
 
 .navbar {
@@ -41,15 +42,14 @@
     text-transform: uppercase;
 }
 .nav-link {
-    color: rgb(255, 255, 255) !important;
-    letter-spacing: 2px;
+    color: rgb(199, 195, 195) !important;
+    letter-spacing: 4px;
     font-size: 20px;
     font-weight: 700;
 }
 .nav-link:hover {
-    color: black !important; 
-    background: rgb(252, 252, 252);
-    padding: 5px;
+   border-bottom: 1px solid red;
+   padding-bottom: 5px;
     transition: all 0.08 ease 0.0s;
 }
 /*NAV BAR 2*/

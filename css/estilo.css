@@ -160,8 +160,7 @@ a:hover {
 
 /*NAV*/
 .logoPrincipal {
-  margin-top: 20px;
-  border-radius: 5px; }
+  width: 200px; }
 
 .tituloNav {
   margin-top: 40px;
@@ -191,6 +190,7 @@ a:hover {
   transform: scale(1.2); }
 
 .navbar {
+  margin-top: -100px;
   margin-left: 30rem;
   margin-right: 30rem;
   height: 100px;
@@ -213,7 +213,7 @@ a:hover {
 .nav-link:hover {
   border-bottom: 1px solid red;
   padding-bottom: 5px;
-  transition: all 0.08 ease 0.0s; }
+  transition: all 0.8s ease 0.0s; }
 
 /*footer*/
 .titulo {
@@ -594,5 +594,6 @@ body {
   background: linear-gradient(to top, black, #464646, #141414); }
 
 header {
+  height: 15rem;
   border-radius: 10px;
   background-color: #141414; }

@@ -8,13 +8,14 @@
 @import "mediasqueries";
 
 body {
+overflow-x: hidden;
    margin: {
        left: 10px;
        right: 10px;
        top: 20px;
        bottom: 20px;
    }
-   background: linear-gradient(to top, rgb(0, 0, 0) , rgb(70, 70, 70) , rgb(20, 20, 20) );
+   background: linear-gradient(to top, rgb(0, 0, 0) , rgb(54, 54, 54) , rgb(27, 27, 27) );
 }
 header {
     height: 15rem;

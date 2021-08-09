@@ -1,24 +1,19 @@
 /*Resolucion para dispositivos moviles*/
 @media only screen and (min-width : 320px) and (max-width : 480px){
     /*Nav index*/
-    body {
-        margin: none;
-        width: 100%;
+    .container_header-fluid {
+        background-color: transparent;
     }
     .logoPrincipal {
-        width: 100%;
-        margin-left: none;
-    }
-    .tituloNav {
-        margin-left: 10px;
-        width: 100%;
-        font-size: 30px;
+        margin-top: -40px;
+        float: left;
+        width: 50%;
     }
     .navRedes {
         display: none;
     }
     .logoNav {
-       display: none;
+        margin-right: 200px;
     }
     /*Contenido index*/
     .carrousel-inner {
@@ -59,6 +54,9 @@
 }
 @media (min-width: 481px) and (max-width: 767px) {
     /*Nav index*/
+    * {
+        overflow-x: hidden;
+    }
     body {
         width: 100%;
     }
@@ -120,6 +118,9 @@
  }
 @media (min-width: 768px) and (max-width: 1024px) {
         /*Nav index*/
+    body {
+        width: 100%;
+    }
     .logoPrincipal {
         margin-left: 10px;
     }
@@ -176,19 +177,18 @@
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
     /*Nav index*/
+    .navbar {
+        margin-left: 5px;
+    }
     .logoPrincipal {
         margin-left: 10px;
     }
-    .tituloNav {
-        font-size: 40px;
-        margin-left: 50px;
-    }
     .navRedes {
-    margin-left: 20px;
+    margin-left: 5px;
     }
     .logoNav {
-        width: 30px;
-        margin-left: 50px;
+        width: 40px;
+        margin-left: 5px;
     }
     /*Contenido index*/
     .card__yamaha-img-top {

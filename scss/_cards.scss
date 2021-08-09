@@ -1,8 +1,8 @@
+$rojo: rgb(88, 27, 27);
+$bordo: rgb(139, 43, 43);
 /*Cards Index*/
 .carousel {
-    border-radius: 100px;
-    margin-left: 80px;
-    width: 90%;
+    width: 100%;
 }
 .card {
     margin-top: 20px;
@@ -12,15 +12,14 @@
     background-color: transparent;
 }
 .card img {
-    border-radius: 0px;
-    padding-top: 20px;
-
+    border: 3px solid $rojo;
+    border-radius: 20px;
 }
 .card-title {
     font-family: 'Teko', sans-serif;
     font-size: 50px;
     letter-spacing: 2px;
-    color: rgb(255, 40, 40);
+    color: $bordo;
 }
 .carousel {
     padding-top: 20px;
@@ -34,13 +33,14 @@
     opacity: 1 !important;
 }
 .cardServicio {
+    color: $bordo;
     width: 20rem;
 }
 /*Card mapa*/
 .card-header {
     text-align: center;
     font-family: 'Teko', sans-serif;
-    color: rgb(252, 137, 71);
+    color: rgb(179, 58, 58);
     font-size: 100px;
 }
 .mapa {
@@ -51,7 +51,7 @@
 }
 .imgFondo {
     border-radius: 20px;
-    padding-top: 20px;
+    padding-top: px;
     
 }
 ul li img {
@@ -68,13 +68,14 @@ ul li {
     padding-top: 20px;
     padding-left: 100px;
     text-align: left;
-    color: rgb(247, 197, 165);
+    color: rgb(197, 79, 79);
     list-style: none;
 }
 .btn {
     border-color: grey;
     background-color: rgb(39, 39, 39);
 }
+
 /*Cards noticias*/
 .container_noticias-fluid {
     margin-top: -80px;

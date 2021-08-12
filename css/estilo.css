@@ -19,9 +19,6 @@
   letter-spacing: 2px;
   color: #8b2b2b; }
 
-.carousel {
-  padding-top: 20px; }
-
 .carousel.carousel-fade .carousel-item {
   display: block;
   opacity: -0;
@@ -178,6 +175,34 @@ a:hover {
   float: right;
   position: absolute; }
 
+/*Motos yamaha*/
+.card__yamaha-title {
+  letter-spacing: 5px;
+  font-family: 'Teko', sans-serif;
+  color: #3939fd;
+  font-size: 100px; }
+
+.titulo-yamaha {
+  margin-top: 35px;
+  margin-left: 200px;
+  color: #3939fd;
+  font-family: 'Teko', sans-serif;
+  font-size: 80px; }
+
+/*Motos KTM*/
+.card__ktm-title {
+  letter-spacing: 5px;
+  font-family: 'Teko', sans-serif;
+  color: orangered;
+  font-size: 100px; }
+
+.titulo-ktm {
+  margin-top: 35px;
+  margin-left: 200px;
+  color: orangered;
+  font-family: 'Teko', sans-serif;
+  font-size: 80px; }
+
 /*Contacto*/
 .card_contacto-header {
   margin-left: 50px;
@@ -185,6 +210,13 @@ a:hover {
   font-family: 'Teko', sans-serif;
   color: #fc8947;
   font-size: 100px; }
+
+.carousel {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.carousel-item {
+  clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); }
 
 /*NAV*/
 .logoPrincipal {
@@ -325,8 +357,12 @@ a:hover {
   font-size: 100px; }
 
 /*Encabezado contacto*/
+form {
+  margin-left: 50px; }
+
 .titulo_consulta {
-  padding-left: 100px;
+  margin-top: 50px;
+  padding-left: 50px;
   font-family: 'Teko', sans-serif;
   color: #fa4040;
   font-size: 80px; }
@@ -389,7 +425,7 @@ a:hover {
   margin-left: 80px; }
 
 .container_form-fluid {
-  margin-left: 100px; }
+  margin-left: 0px; }
 
 /*Financiacion*/
 .container_financiacion-fluid {

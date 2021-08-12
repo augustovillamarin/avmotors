@@ -21,9 +21,7 @@ $bordo: rgb(139, 43, 43);
     letter-spacing: 2px;
     color: $bordo;
 }
-.carousel {
-    padding-top: 20px;
-}
+
 .carousel.carousel-fade .carousel-item {
     display: block;
     opacity: -0;
@@ -175,7 +173,8 @@ a:hover {
     font-size: 80px;
 }
 .descripcion-motos {
-font-size: 20px;    font-family: 'Teko', sans-serif;
+    font-size: 20px;    
+    font-family: 'Teko', sans-serif;
     margin-left: 150px;
     color: white;
 }
@@ -185,6 +184,39 @@ font-size: 20px;    font-family: 'Teko', sans-serif;
     float: right;
     position: absolute;
 }
+/*Motos yamaha*/
+.card__yamaha-title {
+    letter-spacing: 5px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(57, 57, 253);
+    font-size: 100px;
+
+}
+.titulo-yamaha {
+    margin: {
+        top: 35px;
+        left: 200px;
+    }
+    color: rgb(57, 57, 253);
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+}
+/*Motos KTM*/
+.card__ktm-title {
+    letter-spacing: 5px;
+    font-family: 'Teko', sans-serif;
+    color: orangered;
+    font-size: 100px;
+}
+.titulo-ktm {
+    margin: {
+        top: 35px;
+        left: 200px;
+    }
+    color: orangered;
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+}
 /*Contacto*/
 .card_contacto-header {
     margin-left: 50px;
@@ -192,4 +224,13 @@ font-size: 20px;    font-family: 'Teko', sans-serif;
     font-family: 'Teko', sans-serif;
     color: rgb(252, 137, 71);
     font-size: 100px;
+}
+.carousel {
+    margin: {
+        left: 10px;
+        right: 10px;
+    }
+}
+.carousel-item {
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
 }

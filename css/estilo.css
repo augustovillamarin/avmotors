@@ -76,8 +76,8 @@ ul li {
 .card-deck {
   margin-top: 50px; }
 
-/*Motocicletas*/
-.parallax {
+/* Cards Motocicletas*/
+.parallax1 {
   border-radius: 20px;
   margin-top: 40px;
   width: 100%;
@@ -91,7 +91,7 @@ ul li {
 
 .parallax2 {
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
   width: 100%;
   height: 50%;
   background-image: url("../assets/img/motocicletas/yamaha.png");
@@ -103,7 +103,7 @@ ul li {
 
 .parallax3 {
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
   width: 100%;
   height: 50%;
   background-image: url("../assets/img/motocicletas/ktm.png");
@@ -113,28 +113,28 @@ ul li {
   justify-content: center;
   align-items: center; }
 
-.honda {
+.card__motocicletas-honda {
   font-family: 'Teko', sans-serif;
-  color: #ff3e3e;
+  color: #fa5353;
+  font-size: 70px; }
+
+.card__motocicletas-yamaha {
+  font-family: 'Teko', sans-serif;
+  color: #4b4bfa;
+  font-size: 70px; }
+
+.card__motocicletas-ktm {
+  font-family: 'Teko', sans-serif;
+  color: #f8a84d;
   font-size: 70px; }
 
 a {
   text-decoration: none;
-  transform: all .4s; }
+  transition: 0.5s; }
 
 a:hover {
   text-decoration: none;
-  transform: scale(1.1); }
-
-.yamaha {
-  font-family: 'Teko', sans-serif;
-  color: #3232fa;
-  font-size: 70px; }
-
-.ktm {
-  font-family: 'Teko', sans-serif;
-  color: orangered;
-  font-size: 70px; }
+  transform: scale(1.3); }
 
 /*Motos Honda*/
 .container_motoshonda {
@@ -411,7 +411,7 @@ form {
 
 .container_motocicletas-footer {
   background-color: #141414;
-  margin-top: 21rem;
+  margin-top: 24rem;
   padding-top: 50px; }
 
 .container_honda-footer {

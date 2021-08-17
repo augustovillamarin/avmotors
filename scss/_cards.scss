@@ -12,8 +12,7 @@ $bordo: rgb(139, 43, 43);
     background-color: transparent;
 }
 .card img {
-    border: 3px solid $rojo;
-    border-radius: 20px;
+    border-radius: 2px;
 }
 .card-title {
     font-family: 'Teko', sans-serif;
@@ -40,6 +39,7 @@ $bordo: rgb(139, 43, 43);
     font-family: 'Teko', sans-serif;
     color: rgb(179, 58, 58);
     font-size: 100px;
+    background-color: transparent;
 }
 .mapa {
     border: 1px solid orangered;
@@ -162,12 +162,13 @@ a:hover {
     margin-left: 150px;
     color: white;
 }
-.ahora12 {
+.valentino_rossi{
     margin-left: 20rem;
     margin-top: -5rem;
     float: right;
     position: absolute;
 }
+
 /*Motos yamaha*/
 .card__yamaha-title {
     letter-spacing: 5px;

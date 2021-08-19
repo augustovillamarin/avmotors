@@ -25,48 +25,49 @@
         color: rgb(255, 255, 255) !important;
         letter-spacing: 4px;
         font-size: 20px;
-        font-weight: 700;
+        font-weight: 500;
     }
     .logoPrincipal {
+        float: left;
+        margin-left: 20px;
         margin-top: -40px;
-        margin-left: 100px;
         width: 50%;
     }
     .navRedes {
         display: none;
     }
     .logoNav {
-        position: relative;
-        width: 40px;
-        margin-top: -300px;
-        margin-left: 70px;
+        display: flex;
+        flex-direction: column-reverse;
+        width: 30px;
+        margin-top: -90px;
+        margin-left: 18rem;
         
     }
     .navbar-toggler-icon {
         margin-left: -300px;
-       margin-top: -70px;
+        margin-top: -70px;
     }
     /*Contenido index*/
     .carrousel-inner {
         width: 100%;
     }
     .tecnico {
-        margin-top: 0px;
+        margin-top: 40rem;
     }
     .card-header {
         font-size: 40px;
     }
-    .imgFondo {
-        height: 45rem;
-    }
+    
     .mapa {
-        width: 200px;
+        margin-left: -30px;
+        width: 120%;
     }
     ul img {
         display: none;
     }
     ul li {
-        padding-left: 20px;
+        padding-left: 80px;
         padding-top: 100px;
         font-size: 17px;
     }
@@ -76,7 +77,7 @@
         padding-top: 20px;
     }
     .logo {
-        margin-left: 11rem;
+        margin-left: 9rem;
     }
     .ahora12 {
         margin-top: 20rem;

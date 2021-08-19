@@ -480,6 +480,8 @@ form {
     margin-top: -90px;
     margin-left: 18rem; }
   .navbar-toggler-icon {
+    color: red;
+    background-color: grey;
     margin-left: -300px;
     margin-top: -70px; }
   /*Contenido index*/

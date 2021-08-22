@@ -162,13 +162,10 @@ a:hover {
     margin-left: 150px;
     color: white;
 }
-.valentino_rossi{
-    margin-left: 20rem;
-    margin-top: -5rem;
-    float: right;
-    position: absolute;
+.imagen__cbr300-izquierda {
+    clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+    margin-left: -100px;
 }
-
 /*Motos yamaha*/
 .card__yamaha-title {
     letter-spacing: 5px;
@@ -204,7 +201,7 @@ a:hover {
 }
 /*Contacto*/
 .card_contacto-header {
-    margin-left: 50px;
+    margin-left: 200px;
     text-align: left;
     font-family: 'Teko', sans-serif;
     color: rgb(252, 137, 71);

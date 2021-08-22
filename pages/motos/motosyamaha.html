@@ -21,8 +21,13 @@
   <header>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-lg-2">
+        <div data-aos="fade-down" class="col-xs-12 col-lg-2">
           <img class="logoPrincipal" src="../../assets/img/LOGO.png" width="50%" alt="">
+        </div>
+        <div data-aos="fade-down" class="col-xs-12 col-lg-2">
+          <img class="logoNav" src="../../assets/img/Iconos/fb.png" width="45px" alt="">
+          <img class="logoNav" src="../../assets/img/Iconos/instagram.png" width="45px" alt="">
+          <img class="logoNav" src="../../assets/img/Iconos/gmail.png" width="45px" alt="">
         </div>
         <div class="col-xs-12 col-lg-6">
           <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent">
@@ -41,7 +46,7 @@
                   <a class="nav-link" href="../../pages/motocicletas.html">Motocicletas</a>
                   </li>
                   <li id="navItem2" class="nav-item">
-                    <a class="nav-link" href="../../pages/financiacion.html">Financiacion</a>
+                    <a class="nav-link" href="../../pages/financiacion.html">Financiación</a>
                   </li>
                   <li id="nav-item" class="nav-item">
                     <a class="nav-link" href="../../pages/contacto.html">Contacto</a>
@@ -52,11 +57,6 @@
         </div>
         <div class="col-xs-12 col-lg-2">
           <h2 data-aos="fade-down" class="navRedes">REDES</h2>
-        </div>
-        <div data-aos="fade-down" class="col-xs-12 col-lg-2">
-          <img class="logoNav" src="../../assets/img/Iconos/fb.png" width="45px" alt="">
-          <img class="logoNav" src="../../assets/img/Iconos/instagram.png" width="45px" alt="">
-          <img class="logoNav" src="../../assets/img/Iconos/gmail.png" width="45px" alt="">
         </div>
       </div>
     </div>
@@ -140,47 +140,43 @@
         </div>
     </section>
     <!--FORM-->
-    <section>
-        <h2 class="titulo_consulta" style="color: blue;">Envianos tu consulta</h2>
-        <div class="container_form-fluid">
-          <form>
-            <div class="row">
-              <div class="col-xs-12 col-lg-2">
-                <input type="text" class="form-control" placeholder="Nombre">
-              </div>
-              <div class="col-xs-12 col-lg-2">
-                <input type="text" class="form-control" placeholder="Apellido">
-              </div>
-              <div class="col-xs-12 col-lg-8 div-imagen">
-                <div>
-                  <h2>Cuotas sin interes 12 8 20</h2>
-                </div>
-                <img class="valentino_rossi" src="../../assets/img/Yamaha/frontr1.jpg" alt="" width="70%">
+    <section class="form">
+      <h2 class="titulo_consulta" style="color: blue;">Envianos tu consulta</h2>
+      <div class="container_form-fluid">
+        <form>
+          <div class="row">
+            <div class="col-xs-12 col-lg-2">
+              <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="col-xs-12 col-lg-2">
+              <input type="text" class="form-control" placeholder="Apellido">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-12 col-lg-4">
+              <input type="text" class="form-control" placeholder="Correo">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-lg-6">
+              <div class="form-group">
+                <label class="titulo_text" for="exampleFormControlTextarea1" style="color: blue;">Su consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
             </div>
-            <br>
-            <div class="row">
-              <div class="col-xs-12 col-lg-4">
-                <input type="text" class="form-control" placeholder="Correo">
-              </div>
+            <div class="col-xs-12 col-lg-6">
             </div>
-            <div class="row">
-              <div class="col-xs-12 col-lg-6">
-                <div class="form-group">
-                  <label class="titulo_text" for="exampleFormControlTextarea1" style="color: rgb(46, 46, 255);">Su consulta</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-              </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-4 col-lg-2">
+              <button type="button" class="btn btn-danger">Enviar</button>
             </div>
-            <br>
-            <div class="row">
-              <div class="col-xs-4 col-lg-2">
-                <button type="button" class="btn btn-danger">Enviar</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </section>
+          </div>
+        </form>
+      </div>
+    </section>
        <!--footer-->
     <div class="container_honda-footer">
       <div class="row">

@@ -187,6 +187,17 @@ a:hover {
   font-family: 'Teko', sans-serif;
   font-size: 80px; }
 
+.titulo__mt09-yamaha {
+  margin-top: 35px;
+  margin-left: 200px;
+  color: #3939fd;
+  font-family: 'Teko', sans-serif;
+  font-size: 80px; }
+
+.imagen__mt03-izquierda {
+  clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+  margin-left: -100px; }
+
 /*Motos KTM*/
 .card__ktm-title {
   letter-spacing: 5px;
@@ -200,6 +211,36 @@ a:hover {
   color: orangered;
   font-family: 'Teko', sans-serif;
   font-size: 80px; }
+
+.titulo__790-ktm {
+  margin-top: 35px;
+  margin-left: 200px;
+  color: orangered;
+  font-family: 'Teko', sans-serif;
+  font-size: 80px; }
+
+.imagen__390-izquierda {
+  clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+  margin-left: -100px; }
+
+/*Financiacion*/
+.ahora12 {
+  margin-top: 50px; }
+
+.financiacion {
+  margin-left: -200px; }
+
+#carouselExampleSlidesOnly .carousel-item {
+  clip-path: none; }
+
+#carouselFinanciacion {
+  margin-top: -150px;
+  margin-left: -20px;
+  border: 3px solid #f37272;
+  clip-path: none; }
+
+#button-financiacion {
+  margin-top: -20rem; }
 
 /*Contacto*/
 .card_contacto-header {
@@ -215,6 +256,10 @@ a:hover {
 
 .carousel-item {
   clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); }
+
+hr {
+  width: 75%;
+  border-color: #050505; }
 
 /*NAV*/
 .logoPrincipal {
@@ -426,7 +471,8 @@ form {
 
 /*Financiacion*/
 .container_financiacion-fluid {
-  margin-left: 20px; }
+  margin-top: 50px;
+  margin-left: 250px; }
 
 /*contacto*/
 .container_contacto-fluid {
@@ -482,7 +528,7 @@ form {
     margin-top: -240px;
     margin-left: 15rem; }
   .navbar-toggler-icon {
-    color: red;
+    border-radius: 5px;
     background-color: grey;
     margin-left: -300px;
     margin-top: -15rem; }
@@ -520,11 +566,12 @@ form {
     margin-left: -80px;
     font-size: 40px; }
   .titulo-honda {
+    margin-top: 60px;
     margin-left: 10px;
     font-size: 50px; }
   .descripcion-motos {
-    font-size: 15px;
-    margin-left: -40px; }
+    font-size: 13px;
+    margin-left: -20px; }
   .imagen-derecha {
     width: 130%;
     margin-left: -90px;
@@ -539,11 +586,11 @@ form {
     clip-path: none; }
   .imagen__cbr300-izquierda {
     margin-top: 475px;
-    width: 130%;
+    width: 135%;
     position: absolute;
     clip-path: none;
     border-radius: 15px;
-    margin-left: -70px; }
+    margin-left: -30px; }
   section form {
     width: 80%;
     margin-top: 4rem;
@@ -551,8 +598,47 @@ form {
   .titulo_consulta {
     font-size: 60px;
     margin-top: 30rem;
-    margin-left: -32rem; }
-  /*footer*/
+    margin-left: -30rem; }
+  /*yamaha*/
+  .card__yamaha-title {
+    margin-top: -20px;
+    margin-left: -80px;
+    font-size: 40px; }
+  .titulo-yamaha {
+    margin-top: 60px;
+    margin-left: 10px;
+    font-size: 50px; }
+  .titulo__mt09-yamaha {
+    margin-top: 475px;
+    margin-left: 10px;
+    font-size: 50px; }
+  .imagen__mt03-izquierda {
+    margin-top: 475px;
+    width: 135%;
+    position: absolute;
+    clip-path: none;
+    border-radius: 15px;
+    margin-left: auto; }
+  /*ktm*/
+  .card__ktm-title {
+    margin-top: -20px;
+    margin-left: -80px;
+    font-size: 40px; }
+  .titulo-ktm {
+    margin-top: 60px;
+    margin-left: 10px;
+    font-size: 50px; }
+  .titulo__790-ktm {
+    margin-top: 475px;
+    margin-left: 10px;
+    font-size: 50px; }
+  .imagen__390-izquierda {
+    margin-top: 475px;
+    width: 135%;
+    position: absolute;
+    clip-path: none;
+    border-radius: 15px;
+    margin-left: -30px; }
   .container-footer {
     margin-top: 20px;
     padding-top: 20px; }
@@ -560,7 +646,20 @@ form {
     margin-left: 8rem; }
   .ahora12 {
     margin-top: 20rem;
-    margin-left: 20px; } }
+    margin-left: 20px; }
+  /*Financiacion*/
+  .financiacion {
+    width: 200%;
+    margin-left: -200px; }
+  .ahora12 {
+    margin-top: 50px;
+    width: 200%;
+    padding-right: 5px;
+    margin-left: -200px; }
+  #formFinanciacion {
+    display: none; }
+  #carouselFinanciacion {
+    display: none; } }
 
 @media (min-width: 481px) and (max-width: 767px) {
   /*Nav index*/

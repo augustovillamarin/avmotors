@@ -51,11 +51,12 @@
         
     }
     .navbar-toggler-icon {
-        color: red;
+        border-radius: 5px;
         background-color: grey;
         margin-left: -300px;
         margin-top: -15rem;
     }
+    
     /*Contenido index*/
     .carrousel-inner {
         width: 100%;
@@ -102,12 +103,13 @@
         font-size: 40px;
     }
     .titulo-honda {
+        margin-top: 60px;
         margin-left: 10px;
         font-size: 50px;
     }
     .descripcion-motos {
-        font-size: 15px;
-        margin-left: -40px;
+        font-size: 13px;
+        margin-left: -20px;
     }
     .imagen-derecha {
         width: 130%;
@@ -125,11 +127,11 @@
     }
     .imagen__cbr300-izquierda {
         margin-top: 475px;
-        width: 130%;
+        width: 135%;
         position: absolute;
         clip-path: none;
         border-radius: 15px;
-        margin-left: -70px;
+        margin-left: -30px;
     }
     section form {
         width: 80%;
@@ -139,9 +141,57 @@
     .titulo_consulta {
         font-size: 60px;
         margin-top: 30rem;
-        margin-left: -32rem;
+        margin-left: -30rem;
     }
-    /*footer*/
+    /*yamaha*/
+    .card__yamaha-title {
+        margin-top: -20px;
+        margin-left: -80px;
+        font-size: 40px;
+    }
+    .titulo-yamaha {
+        margin-top: 60px;
+        margin-left: 10px;
+        font-size: 50px;
+    }
+    .titulo__mt09-yamaha {
+        margin-top: 475px;
+        margin-left: 10px;
+        font-size: 50px;
+    }
+    .imagen__mt03-izquierda {
+        margin-top: 475px;
+        width: 135%;
+        position: absolute;
+        clip-path: none;
+        border-radius: 15px;
+        margin-left: auto;
+    }
+    /*ktm*/ 
+    .card__ktm-title {
+        margin-top: -20px;
+        margin-left: -80px;
+        font-size: 40px;
+    }
+    .titulo-ktm {
+        margin-top: 60px;
+        margin-left: 10px;
+        font-size: 50px;
+    }
+    .titulo__790-ktm {
+        margin-top: 475px;
+        margin-left: 10px;
+        font-size: 50px;
+    }
+    .imagen__390-izquierda {
+        margin-top: 475px;
+        width: 135%;
+        position: absolute;
+        clip-path: none;
+        border-radius: 15px;
+        margin-left: -30px;
+    }
+    
     .container-footer {
         margin-top: 20px;
         padding-top: 20px;
@@ -153,7 +203,25 @@
         margin-top: 20rem;
         margin-left: 20px;        
     }
+    /*Financiacion*/ 
+    .financiacion {
+        width: 200%;
+        margin-left: -200px;
+    }
+    .ahora12 {
+        margin-top: 50px;
+        width: 200%;
+        padding-right: 5px;
+        margin-left: -200px;
+    }
+    #formFinanciacion {
+       display: none;
+    }
+    #carouselFinanciacion {
+        display: none;
+    }
 }
+
 @media (min-width: 481px) and (max-width: 767px) {
     /*Nav index*/
     * {

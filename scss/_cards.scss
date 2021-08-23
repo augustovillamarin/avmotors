@@ -183,6 +183,19 @@ a:hover {
     font-family: 'Teko', sans-serif;
     font-size: 80px;
 }
+.titulo__mt09-yamaha {
+    margin: {
+        top: 35px;
+        left: 200px;
+    }
+    color: rgb(57, 57, 253);
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+}
+.imagen__mt03-izquierda {
+    clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+    margin-left: -100px;
+}
 /*Motos KTM*/
 .card__ktm-title {
     letter-spacing: 5px;
@@ -198,6 +211,40 @@ a:hover {
     color: orangered;
     font-family: 'Teko', sans-serif;
     font-size: 80px;
+}
+.titulo__790-ktm {
+    margin: {
+        top: 35px;
+        left: 200px;
+    }
+    color: orangered;
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+}
+.imagen__390-izquierda {
+    clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+    margin-left: -100px;
+}
+/*Financiacion*/
+.ahora12 {
+    margin-top: 50px;
+}
+.financiacion {
+    margin-left: -200px;
+}
+#carouselExampleSlidesOnly {
+    .carousel-item {
+        clip-path: none;
+    }
+}
+#carouselFinanciacion {
+    margin-top: -150px;
+    margin-left: -20px;
+    border: 3px solid rgb(243, 114, 114);
+    clip-path: none;
+}
+#button-financiacion {
+    margin-top: -20rem;
 }
 /*Contacto*/
 .card_contacto-header {
@@ -215,4 +262,8 @@ a:hover {
 }
 .carousel-item {
     clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+hr {
+    width: 75%;
+    border-color: rgb(5, 5, 5);
 }

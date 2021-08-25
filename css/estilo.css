@@ -1,7 +1,4 @@
 /*Cards Index*/
-.carousel {
-  width: 100%; }
-
 .card {
   margin-top: 20px;
   border-radius: 20px;
@@ -18,19 +15,11 @@
   letter-spacing: 2px;
   color: #b33a3a; }
 
-.carousel.carousel-fade .carousel-item {
-  display: block;
-  opacity: -0;
-  transition: opacity ease-out .3s; }
-
-.carousel.carousel-fade .carousel-item.active {
-  opacity: 1 !important; }
-
 .cardServicio {
   color: #b33a3a;
   width: 20rem; }
 
-/*Card mapa*/
+/*Card Ubiacion*/
 .card-header {
   text-align: center;
   font-family: 'Teko', sans-serif;
@@ -825,6 +814,18 @@ form {
 .form {
   width: 100%;
   margin-left: 30rem; }
+
+/*carousel*/
+.carousel {
+  width: 100%; }
+
+.carousel.carousel-fade .carousel-item {
+  display: block;
+  opacity: -0;
+  transition: opacity ease-out .3s; }
+
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1 !important; }
 
 body {
   overflow-x: hidden;

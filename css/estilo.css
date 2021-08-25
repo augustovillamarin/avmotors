@@ -16,7 +16,7 @@
   font-family: 'Teko', sans-serif;
   font-size: 50px;
   letter-spacing: 2px;
-  color: #8b2b2b; }
+  color: #b33a3a; }
 
 .carousel.carousel-fade .carousel-item {
   display: block;
@@ -27,7 +27,7 @@
   opacity: 1 !important; }
 
 .cardServicio {
-  color: #8b2b2b;
+  color: #b33a3a;
   width: 20rem; }
 
 /*Card mapa*/
@@ -43,10 +43,6 @@
   margin-left: 45px;
   padding-top: -20;
   border-radius: 20px; }
-
-.imgFondo {
-  border-radius: 20px;
-  padding-top: px; }
 
 ul li img {
   padding-top: 100px;
@@ -68,6 +64,9 @@ ul li {
 .btn {
   border-color: grey;
   background-color: #272727; }
+
+.tecnico {
+  margin-top: 40px; }
 
 /*Cards noticias*/
 .container_noticias-fluid {
@@ -228,6 +227,7 @@ a:hover {
   margin-top: 50px; }
 
 .financiacion {
+  padding: none;
   margin-left: -200px; }
 
 #carouselExampleSlidesOnly .carousel-item {
@@ -365,7 +365,7 @@ hr {
 /*Encabezados index*/
 .titulo-servicio {
   font-family: 'Teko', sans-serif;
-  color: #8b2b2b;
+  color: #b33a3a;
   font-size: 60px; }
 
 /*Encabezado novedades*/
@@ -431,13 +431,6 @@ form {
 
 .moto_gp:hover {
   transform: scale(1.1); }
-
-.breadcrumb {
-  margin-top: 20px;
-  background-color: transparent; }
-
-.breadcrumb li {
-  color: white; }
 
 /*footers*/
 .container-footer {
@@ -599,6 +592,8 @@ form {
     font-size: 60px;
     margin-top: 30rem;
     margin-left: -30rem; }
+  .cbr500 {
+    margin-top: 350px; }
   /*yamaha*/
   .card__yamaha-title {
     margin-top: -20px;

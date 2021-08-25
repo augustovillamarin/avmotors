@@ -1,9 +1,6 @@
 $rojo: rgb(88, 27, 27);
-$bordo: rgb(139, 43, 43);
+$bordo: rgb(179, 58, 58);
 /*Cards Index*/
-.carousel {
-    width: 100%;
-}
 .card {
     margin-top: 20px;
     border-radius: 20px;
@@ -20,24 +17,15 @@ $bordo: rgb(139, 43, 43);
     letter-spacing: 2px;
     color: $bordo;
 }
-
-.carousel.carousel-fade .carousel-item {
-    display: block;
-    opacity: -0;
-    transition: opacity ease-out .3s;
-}
-.carousel.carousel-fade .carousel-item.active {
-    opacity: 1 !important;
-}
 .cardServicio {
     color: $bordo;
     width: 20rem;
 }
-/*Card mapa*/
+/*Card Ubiacion*/
 .card-header {
     text-align: center;
     font-family: 'Teko', sans-serif;
-    color: rgb(179, 58, 58);
+    color: $bordo;
     font-size: 100px;
     background-color: transparent;
 }
@@ -46,11 +34,6 @@ $bordo: rgb(139, 43, 43);
     margin-left: 45px;
     padding-top: -20;
     border-radius: 20px;
-}
-.imgFondo {
-    border-radius: 20px;
-    padding-top: px;
-    
 }
 ul li img {
     padding-top: 100px;
@@ -73,7 +56,9 @@ ul li {
     border-color: grey;
     background-color: rgb(39, 39, 39);
 }
-
+.tecnico {
+    margin-top: 40px;
+}
 /*Cards noticias*/
 .container_noticias-fluid {
     margin-top: -80px;
@@ -230,6 +215,7 @@ a:hover {
     margin-top: 50px;
 }
 .financiacion {
+    padding: none;
     margin-left: -200px;
 }
 #carouselExampleSlidesOnly {

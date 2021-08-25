@@ -1,0 +1,12 @@
+/*carousel*/ 
+.carousel {
+    width: 100%;
+}
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: -0;
+    transition: opacity ease-out .3s;
+}
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}

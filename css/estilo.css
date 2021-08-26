@@ -54,6 +54,10 @@ ul li {
   border-color: grey;
   background-color: #272727; }
 
+.btn:hover {
+  border-color: #b33a3a;
+  background-color: #b33a3a; }
+
 .tecnico {
   margin-top: 40px; }
 
@@ -410,7 +414,9 @@ form {
   color: #42d335; }
 
 .table {
-  background-color: white; }
+  color: white;
+  background-color: transparent;
+  padding-right: 50px; }
 
 .moto_gp {
   margin-top: -100px;
@@ -602,7 +608,7 @@ form {
     position: absolute;
     clip-path: none;
     border-radius: 15px;
-    margin-left: auto; }
+    margin-left: -30px; }
   /*ktm*/
   .card__ktm-title {
     margin-top: -20px;
@@ -643,7 +649,17 @@ form {
   #formFinanciacion {
     display: none; }
   #carouselFinanciacion {
-    display: none; } }
+    display: none; }
+  /*tabla*/
+  .table {
+    margin: 5px; }
+  /*contacto*/
+  .card_contacto-header {
+    font-size: 50px;
+    margin-left: 20px; }
+  .form-contacto {
+    margin-top: 25rem;
+    margin-left: 30px; } }
 
 @media (min-width: 481px) and (max-width: 767px) {
   /*Nav index*/

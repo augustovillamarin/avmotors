@@ -56,6 +56,10 @@ ul li {
     border-color: grey;
     background-color: rgb(39, 39, 39);
 }
+.btn:hover {
+    border-color: $bordo;
+    background-color: $bordo;
+}
 .tecnico {
     margin-top: 40px;
 }

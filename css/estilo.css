@@ -337,7 +337,7 @@ hr {
 
 .logo {
   border-radius: 10px;
-  margin-left: 24rem; }
+  margin-left: 26rem; }
 
 .logo:hover {
   background-color: #ff5050; }
@@ -429,7 +429,6 @@ form {
 
 /*footers*/
 .container-footer {
-  border-radius: 20px;
   background-color: #141414;
   padding-top: 50px;
   margin-top: 10rem; }
@@ -633,7 +632,7 @@ form {
     margin-top: 20px;
     padding-top: 20px; }
   .logo {
-    margin-left: 8rem; }
+    margin-left: 10rem; }
   .ahora12 {
     margin-top: 20rem;
     margin-left: 20px; }

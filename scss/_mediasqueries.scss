@@ -457,7 +457,7 @@
 @media (min-width: 1281px) and (max-width: 1600px) {
     /*Nav index*/
     .logoPrincipal {
-        margin-top: 40px;
+        margin-top: 20px;
         width: 100%;
         margin-left: 10px;
     }
@@ -476,7 +476,7 @@
     }
     /*Contenido index*/
     .card__yamaha-img-top {
-        height: 260px;
+        height: 210px;
     }
     .tecnico {
         margin-top: 5rem;
@@ -488,7 +488,7 @@
         height: 50rem;
     }
     .mapa {
-        width: 300px;
+        width: 500px;
     }
     ul li {
         font-size: 25px;
@@ -499,9 +499,61 @@
     .card-text {
         font-size: 12px;
     }
+     /*honda*/
+     .card-honda {
+        
+        width: 120%;
+    }
+    .card__honda-title {
+        margin-left: none;
+        font-size: 80px;
+    }
+    .titulo-honda {
+        margin-top: 60px;
+        margin-left: 100px;
+        font-size: 50px;
+    }
+    .descripcion-motos {
+        font-size: 13px;
+        margin-left: 100px;
+    }
+    .imagen-derecha {
+        width: 100%;
+        
+    }
+    .imagen-izquierda {
+        position: absolute;
+        
+        width: 100%;
+        margin-right: -90px;
+        border-radius: 15px;
+        
+    }
+    .imagen__cbr300-izquierda {
+        margin-top: none;
+        width: 90%;
+        margin-left: -30px;
+    }
+    section form {
+        width: 80%;
+        margin-top: 4rem;
+        margin-left: -27rem;
+    }
+    .titulo_consulta {
+        font-size: 60px;
+        margin-top: 30rem;
+        margin-left: -30rem;
+    }
+    .cbr500 {
+        margin-top: -40px;
+    }
+    .form {
+        margin-top: -300px;
+    }
+    
     /*footer*/
     .container-footer {
-        margin-top: 20px;
+        margin-top: 100px;
         padding-top: 20px;
     }
     .logo {

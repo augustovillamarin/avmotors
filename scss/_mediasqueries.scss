@@ -200,7 +200,17 @@
         padding-top: 20px;
     }
     .logo {
-        margin-left: 10rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: 150px;
+    }
+    .logo2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: -40px;
+        margin-left: 200px;
     }
     .ahora12 {
         margin-top: 20rem;
@@ -238,76 +248,22 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-    /*Nav index*/
-    * {
-        overflow-x: hidden;
-    }
-    body {
-        width: 100%;
-    }
-    .logoPrincipal {
-        width: 100%;
-        
-    }
-    .tituloNav {
-        margin-left: 10px;
-        width: 100%;
-        font-size: 30px;
-    }
-    .navRedes {
-       display: none;
-    }
-    .logoNav {
-       display: none;
-    }
-    /*Contenido index*/
-    
-    .tecnico {
-        margin-top: 5rem;
-    }
-    .card-header {
-        font-size: 40px;
-    }
-    .imgFondo {
-        height: 50rem;
-    }
-    .mapa {
-        width: 300px;
-    }
-    ul img {
-        display: none;
-    }
-    ul li {
-        padding-left: 20px;
-        padding-top: 100px;
-        font-size: 25px;
-    }
-    .card-title {
-        font-size: 20px;
-    }
-    .card-text {
-        font-size: 12px;
-    }
-    /*footer*/
-    .container-footer {
-        margin-top: 20px;
-        padding-top: 20px;
-    }
-    .logo {
-        margin-left: 11.5rem;
-    }
-    .ahora12 {
-        margin-top: 20rem;
-        margin-left: 20px;        
-    }
- }
 @media (min-width: 768px) and (max-width: 1024px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
         /*Nav index*/
-    body {
-        width: 100%;
-    }
+     html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+    
     .logoPrincipal {
+        margin-top: 40px;
+        width: 100%;
         margin-left: 10px;
     }
     .tituloNav {
@@ -316,12 +272,26 @@
         padding-left: 50px;
         margin-left: 100px;
     }
-    .navRedes {
-    display: none;
+    .logos {
+        margin-left: 40px;
     }
     .logoNav {
-        width: 40px;
+        width: 30px;
         margin-left: 10px;
+    }
+    .navbar  {
+        margin-left: 20px;
+    }
+    .navbar ul li {
+        padding: none;
+        
+    }
+    .nav-item {
+        padding-left: 40px;
+    }
+    .nav-link {
+        padding: none;
+        font-size: 10px;
     }
     /*Contenido index*/
     .card__yamaha-img-top {
@@ -348,33 +318,98 @@
     .card-text {
         font-size: 12px;
     }
+    /*honda*/
+    .card-honda {
+        
+        width: 100%;
+    }
+    .card__honda-title {
+        margin-left: 100px;
+        font-size: 50px;
+    }
+    .titulo-honda {
+        margin-top: 60px;
+        margin-left: 10px;
+        font-size: 50px;
+    }
+    .descripcion-motos {
+        font-size: 13px;
+        margin-left: -20px;
+    }
+    .imagen-derecha {
+        width: 130%;
+        margin-left: -90px;
+        border-radius: 15px;
+        clip-path: none;
+    }
+    .imagen-izquierda {
+        position: absolute;
+        margin-top: 475px;
+        width: 130%;
+        margin-right: -90px;
+        border-radius: 15px;
+        clip-path: none;
+    }
+    .imagen__cbr300-izquierda {
+        margin-top: 475px;
+        width: 135%;
+        position: absolute;
+        clip-path: none;
+        border-radius: 15px;
+        margin-left: -30px;
+    }
+    section form {
+        width: 80%;
+        margin-top: 4rem;
+        margin-left: -27rem;
+    }
+    .titulo_consulta {
+        font-size: 60px;
+        margin-top: 30rem;
+        margin-left: -30rem;
+    }
+    .cbr500 {
+        margin-top: 350px;
+    }
     /*footer*/
     .container-footer {
-        margin-top: 20px;
+        margin-top: 100px;
         padding-top: 20px;
     }
     .logo {
-        margin-left: 20rem;
+        margin-left: 11rem;
     }
     .ahora12 {
-        margin-top: 20rem;
-        margin-left: 20px;        
+        margin-top: none;
+        margin-left: none;        
+    }
+    #button-financiacion {
+        margin-top: 30px;
     }
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     /*Nav index*/
     .navbar {
         margin-left: 5px;
     }
     .logoPrincipal {
+        width: 100%;
+        margin-top: 40px;
         margin-left: 10px;
     }
-    .navRedes {
-    margin-left: 5px;
-    }
     .logoNav {
-        width: 40px;
-        margin-left: 5px;
+        width: 30px;
+        margin-left: 10px;
+    }
+    .nav-link {
+        font-size: 15px;
+    }
+    .navbar ul li {
+        margin-right: -90px;
     }
     /*Contenido index*/
     .card__yamaha-img-top {
@@ -401,18 +436,22 @@
     .card-text {
         font-size: 12px;
     }
+    .ahora12 {
+        margin-top: none;
+        margin-left: none;        
+    }
+    #button-financiacion {
+        margin-top: 30px;
+    }
 /*footer*/
 .container-footer {
-    margin-top: 20px;
+    margin-top: 100px;
     padding-top: 20px;
 }
 .logo {
-    margin-left: 15rem;
+    margin-left: 12rem;
 }
-.ahora12 {
-    margin-top: 20rem;
-    margin-left: 20px;        
-}
+
 }
 
 @media (min-width: 1281px) and (max-width: 1600px) {

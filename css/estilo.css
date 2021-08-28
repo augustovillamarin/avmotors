@@ -823,15 +823,18 @@ form {
 @media (min-width: 1281px) and (max-width: 1600px) {
   /*Nav index*/
   .logoPrincipal {
+    margin-top: 40px;
+    width: 100%;
     margin-left: 10px; }
-  .tituloNav {
-    font-size: 40px;
-    margin-left: 50px; }
-  .navRedes {
-    margin-left: 20px; }
+  .logos {
+    width: 10px;
+    margin-left: 30px; }
+  .nav-link {
+    font-size: 15px; }
+  .navbar ul li {
+    margin-right: -90px; }
   .logoNav {
-    width: 40px;
-    margin-left: 50px; }
+    width: 30px; }
   /*Contenido index*/
   .card__yamaha-img-top {
     height: 260px; }

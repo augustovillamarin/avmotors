@@ -10,3 +10,12 @@
 .carousel.carousel-fade .carousel-item.active {
     opacity: 1 !important;
 }
+.carousel {
+    margin: {
+        left: 10px;
+        right: 10px;
+    }
+}
+.carousel-item {
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}

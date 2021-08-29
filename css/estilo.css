@@ -669,157 +669,7 @@ form {
     margin-top: 25rem;
     margin-left: 30px; } }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden; }
-  /*Nav index*/
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-    margin-left: 10px;
-    margin-right: 10px; }
-  .logoPrincipal {
-    margin-top: 40px;
-    width: 100%;
-    margin-left: 10px; }
-  .tituloNav {
-    border: none;
-    font-size: 40px;
-    padding-left: 50px;
-    margin-left: 100px; }
-  .logos {
-    margin-left: 40px; }
-  .logoNav {
-    width: 30px;
-    margin-left: 10px; }
-  .navbar {
-    margin-left: 20px; }
-  .navbar ul li {
-    padding: none; }
-  .nav-item {
-    padding-left: 40px; }
-  .nav-link {
-    padding: none;
-    font-size: 10px; }
-  /*Contenido index*/
-  .card__yamaha-img-top {
-    height: 150px; }
-  .tecnico {
-    margin-top: 5rem; }
-  .card-header {
-    font-size: 40px; }
-  .imgFondo {
-    height: 50rem; }
-  .mapa {
-    width: 300px; }
-  ul li {
-    font-size: 25px; }
-  .card-title {
-    font-size: 20px; }
-  .card-text {
-    font-size: 12px; }
-  /*honda*/
-  .card-honda {
-    width: 100%; }
-  .card__honda-title {
-    margin-left: 100px;
-    font-size: 50px; }
-  .titulo-honda {
-    margin-top: 60px;
-    margin-left: 10px;
-    font-size: 50px; }
-  .descripcion-motos {
-    font-size: 13px;
-    margin-left: -20px; }
-  .imagen-derecha {
-    width: 130%;
-    margin-left: -90px;
-    border-radius: 15px;
-    clip-path: none; }
-  .imagen-izquierda {
-    position: absolute;
-    margin-top: 475px;
-    width: 130%;
-    margin-right: -90px;
-    border-radius: 15px;
-    clip-path: none; }
-  .imagen__cbr300-izquierda {
-    margin-top: 475px;
-    width: 135%;
-    position: absolute;
-    clip-path: none;
-    border-radius: 15px;
-    margin-left: -30px; }
-  section form {
-    width: 80%;
-    margin-top: 4rem;
-    margin-left: -27rem; }
-  .titulo_consulta {
-    font-size: 60px;
-    margin-top: 30rem;
-    margin-left: -30rem; }
-  .cbr500 {
-    margin-top: 350px; }
-  /*footer*/
-  .container-footer {
-    margin-top: 100px;
-    padding-top: 20px; }
-  .logo {
-    margin-left: 11rem; }
-  .ahora12 {
-    margin-top: none;
-    margin-left: none; }
-  #button-financiacion {
-    margin-top: 30px; } }
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  body {
-    margin-left: 10px;
-    margin-right: 10px; }
-  /*Nav index*/
-  .navbar {
-    margin-left: 5px; }
-  .logoPrincipal {
-    width: 100%;
-    margin-top: 40px;
-    margin-left: 10px; }
-  .logoNav {
-    width: 30px;
-    margin-left: 10px; }
-  .nav-link {
-    font-size: 15px; }
-  .navbar ul li {
-    margin-right: -90px; }
-  /*Contenido index*/
-  .card__yamaha-img-top {
-    height: 260px; }
-  .tecnico {
-    margin-top: 5rem; }
-  .card-header {
-    font-size: 40px; }
-  .imgFondo {
-    height: 50rem; }
-  .mapa {
-    width: 300px; }
-  ul li {
-    font-size: 25px; }
-  .card-title {
-    font-size: 20px; }
-  .card-text {
-    font-size: 12px; }
-  .ahora12 {
-    margin-top: none;
-    margin-left: none; }
-  #button-financiacion {
-    margin-top: 30px; }
-  /*footer*/
-  .container-footer {
-    margin-top: 100px;
-    padding-top: 20px; }
-  .logo {
-    margin-left: 12rem; } }
-
+/*Media querie para laptop*/
 @media (min-width: 1281px) and (max-width: 1600px) {
   /*Nav index*/
   .logoPrincipal {
@@ -911,6 +761,14 @@ form {
     margin-left: 50px; }
   #button-financiacion {
     margin-top: 30px; }
+  /*contacto*/
+  .container_contacto-fluid {
+    margin-top: 30rem; }
+  .formContacto {
+    padding-bottom: 500px;
+    margin-top: -30rem; }
+  .card_contacto-body {
+    margin-left: 20px; }
   /*footer*/
   .container-footer {
     margin-top: 100px;
@@ -937,6 +795,262 @@ form {
 
 .carousel.carousel-fade .carousel-item.active {
   opacity: 1 !important; }
+
+.carousel {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.carousel-item {
+  clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); }
+
+/*Cards Index*/
+.card {
+  margin-top: 20px;
+  border-radius: 20px;
+  border-color: transparent;
+  color: white;
+  background-color: transparent; }
+
+.card img {
+  border-radius: 2px; }
+
+.card-title {
+  font-family: 'Teko', sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #b33a3a; }
+
+.cardServicio {
+  color: #b33a3a;
+  width: 20rem; }
+
+/*Card Ubiacion*/
+.card-header {
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  color: #b33a3a;
+  font-size: 100px;
+  background-color: transparent; }
+
+.mapa {
+  border: 1px solid orangered;
+  margin-left: 45px;
+  padding-top: -20;
+  border-radius: 20px; }
+
+ul li img {
+  padding-top: 100px;
+  padding-left: 10px; }
+
+ul img {
+  padding-top: 40px; }
+
+ul li {
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  margin: -55px;
+  padding-top: 20px;
+  padding-left: 100px;
+  text-align: left;
+  color: #c54f4f;
+  list-style: none; }
+
+.btn {
+  border-color: grey;
+  background-color: #272727; }
+
+.btn:hover {
+  border-color: #b33a3a;
+  background-color: #b33a3a; }
+
+.tecnico {
+  margin-top: 40px; }
+
+/*Cards noticias*/
+.container_noticias-fluid {
+  margin-top: -80px; }
+
+.card-deck {
+  margin-top: 50px; }
+
+/* Cards Motocicletas*/
+.parallax1 {
+  border-radius: 20px;
+  margin-top: 40px;
+  width: 100%;
+  height: 50%;
+  background-image: url("../assets/img/motocicletas/honda.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.parallax2 {
+  border-radius: 20px;
+  margin-top: 40px;
+  width: 100%;
+  height: 50%;
+  background-image: url("../assets/img/motocicletas/yamaha.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.parallax3 {
+  border-radius: 20px;
+  margin-top: 40px;
+  width: 100%;
+  height: 50%;
+  background-image: url("../assets/img/motocicletas/ktm.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.card__motocicletas-honda {
+  font-family: 'Teko', sans-serif;
+  color: #fa5353;
+  font-size: 70px; }
+
+.card__motocicletas-yamaha {
+  font-family: 'Teko', sans-serif;
+  color: #4b4bfa;
+  font-size: 70px; }
+
+.card__motocicletas-ktm {
+  font-family: 'Teko', sans-serif;
+  color: #f8a84d;
+  font-size: 70px; }
+
+a {
+  text-decoration: none;
+  transition: 0.5s; }
+
+a:hover {
+  text-decoration: none;
+  transform: scale(1.3); }
+
+/*Motos Honda*/
+.container_motoshonda {
+  margin-top: 5rem; }
+
+.card-honda {
+  margin-left: -100px; }
+
+.card__honda-title {
+  letter-spacing: 5px;
+  font-family: 'Teko', sans-serif;
+  color: #921b1b;
+  font-size: 100px; }
+
+.imagen-derecha {
+  clip-path: polygon(53% 0, 100% 0, 100% 100%, 0% 100%); }
+
+.imagen-izquierda {
+  clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+  margin-left: -100px; }
+
+.titulo-honda {
+  margin-top: 35px;
+  margin-left: 200px;
+  color: #fd2727;
+  font-family: 'Teko', sans-serif;
+  font-size: 80px; }
+
+.descripcion-motos {
+  font-size: 20px;
+  font-family: 'Teko', sans-serif;
+  margin-left: 150px;
+  color: white; }
+
+.imagen__cbr300-izquierda {
+  clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+  margin-left: -100px; }
+
+/*Motos yamaha*/
+.card__yamaha-title {
+  letter-spacing: 5px;
+  font-family: 'Teko', sans-serif;
+  color: #3939fd;
+  font-size: 100px; }
+
+.titulo-yamaha {
+  margin-top: 35px;
+  margin-left: 200px;
+  color: #3939fd;
+  font-family: 'Teko', sans-serif;
+  font-size: 80px; }
+
+.titulo__mt09-yamaha {
+  margin-top: 35px;
+  margin-left: 200px;
+  color: #3939fd;
+  font-family: 'Teko', sans-serif;
+  font-size: 80px; }
+
+.imagen__mt03-izquierda {
+  clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+  margin-left: -100px; }
+
+/*Motos KTM*/
+.card__ktm-title {
+  letter-spacing: 5px;
+  font-family: 'Teko', sans-serif;
+  color: orangered;
+  font-size: 100px; }
+
+.titulo-ktm {
+  margin-top: 35px;
+  margin-left: 200px;
+  color: orangered;
+  font-family: 'Teko', sans-serif;
+  font-size: 80px; }
+
+.titulo__790-ktm {
+  margin-top: 35px;
+  margin-left: 200px;
+  color: orangered;
+  font-family: 'Teko', sans-serif;
+  font-size: 80px; }
+
+.imagen__390-izquierda {
+  clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+  margin-left: -100px; }
+
+/*Financiacion*/
+.ahora12 {
+  margin-top: 50px; }
+
+.financiacion {
+  padding: none;
+  margin-left: -200px; }
+
+#carouselExampleSlidesOnly .carousel-item {
+  clip-path: none; }
+
+#carouselFinanciacion {
+  margin-top: -150px;
+  margin-left: -20px;
+  border: 3px solid #f37272;
+  clip-path: none; }
+
+#button-financiacion {
+  margin-top: -20rem; }
+
+/*Contacto*/
+.card_contacto-header {
+  margin-left: 200px;
+  text-align: left;
+  font-family: 'Teko', sans-serif;
+  color: #fc8947;
+  font-size: 100px; }
+
+hr {
+  width: 75%;
+  border-color: #050505; }
 
 body {
   overflow-x: hidden;

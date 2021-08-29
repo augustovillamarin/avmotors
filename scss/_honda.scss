@@ -1,0 +1,39 @@
+/*Motos Honda*/
+.container_motoshonda {
+    margin-top: 5rem;
+}
+.card-honda {
+    margin-left: -100px;
+}
+.card__honda-title {
+    letter-spacing: 5px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(146, 27, 27);
+    font-size: 100px;
+}
+.imagen-derecha {
+    clip-path: polygon(53% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.imagen-izquierda {
+    clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+    margin-left: -100px;
+}
+.titulo-honda {
+    margin: {
+        top: 35px;
+        left: 200px;
+    }
+    color: rgb(253, 39, 39);
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+}
+.descripcion-motos {
+    font-size: 20px;    
+    font-family: 'Teko', sans-serif;
+    margin-left: 150px;
+    color: white;
+}
+.imagen__cbr300-izquierda {
+    clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+    margin-left: -100px;
+}

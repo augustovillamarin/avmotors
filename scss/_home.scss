@@ -1,0 +1,63 @@
+/*Cards Index*/
+.card {
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    background-color: transparent;
+}
+.card img {
+    border-radius: 2px;
+}
+.card-title {
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: $bordo;
+}
+.cardServicio {
+    color: $bordo;
+    width: 20rem;
+}
+/*Card Ubiacion*/
+.card-header {
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    color: $bordo;
+    font-size: 100px;
+    background-color: transparent;
+}
+.mapa {
+    border: 1px solid orangered;
+    margin-left: 45px;
+    padding-top: -20;
+    border-radius: 20px;
+}
+ul li img {
+    padding-top: 100px;
+    padding-left: 10px;
+}
+ul img {
+    padding-top: 40px;
+}
+ul li {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    margin: -55px;
+    padding-top: 20px;
+    padding-left: 100px;
+    text-align: left;
+    color: rgb(197, 79, 79);
+    list-style: none;
+}
+.btn {
+    border-color: grey;
+    background-color: rgb(39, 39, 39);
+}
+.btn:hover {
+    border-color: $bordo;
+    background-color: $bordo;
+}
+.tecnico {
+    margin-top: 40px;
+}

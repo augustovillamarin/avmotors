@@ -1,0 +1,46 @@
+/* Cards Motocicletas*/
+@mixin parallax ($fondo) {
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 100%;
+    height: 50%;
+    background-image: $fondo;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parallax1 {
+    @include parallax(url('../assets/img/motocicletas/honda.png'));
+    
+}
+.parallax2 {
+    @include parallax (url('../assets/img/motocicletas/yamaha.png'));
+}
+.parallax3 {
+  @include parallax (url('../assets/img/motocicletas/ktm.png'));
+}
+
+@mixin card__motocicletas ($color) {
+    font-family: 'Teko', sans-serif;
+    color: $color;
+    font-size: 70px;
+}
+.card__motocicletas-honda {
+    @include card__motocicletas(rgb(250, 83, 83));
+}
+.card__motocicletas-yamaha {
+    @include card__motocicletas(rgb(75, 75, 250))
+}
+.card__motocicletas-ktm {
+    @include card__motocicletas(rgb(248, 168, 77))
+}
+a { 
+    text-decoration: none;
+    transition: 0.5s;
+ }
+a:hover { 
+    text-decoration: none ; 
+    transform: scale(1.3);
+}

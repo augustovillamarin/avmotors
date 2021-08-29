@@ -876,18 +876,41 @@ form {
     margin-top: none;
     width: 90%;
     margin-left: -30px; }
+  .cbr500 {
+    margin-top: -40px; }
+  /*Yamaha*/
+  .titulo-yamaha {
+    font-size: 60px;
+    margin-top: 10px; }
+  .titulo__mt09-yamaha {
+    margin-top: 5px;
+    font-size: 60px; }
   section form {
     width: 80%;
-    margin-top: 4rem;
-    margin-left: -27rem; }
+    margin-top: -25rem;
+    margin-left: 7rem; }
   .titulo_consulta {
     font-size: 60px;
     margin-top: 30rem;
     margin-left: -30rem; }
-  .cbr500 {
-    margin-top: -40px; }
-  .form {
-    margin-top: -300px; }
+  /*ktm*/
+  .titulo-ktm {
+    font-size: 40px;
+    margin-top: 30px; }
+  .titulo__790-ktm {
+    font-size: 40px;
+    margin-top: 80px; }
+  #ktm-790 {
+    margin-top: 40px; }
+  #carouselExampleSlidesOnly {
+    margin-top: -10rem;
+    margin-left: 5rem; }
+  .titulo_consulta {
+    margin-top: 20px;
+    margin-bottom: 400px;
+    margin-left: 50px; }
+  #button-financiacion {
+    margin-top: 30px; }
   /*footer*/
   .container-footer {
     margin-top: 100px;

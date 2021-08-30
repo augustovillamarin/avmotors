@@ -288,8 +288,8 @@ form {
     font-size: 80px;
     padding-left: 90px;
     margin-top: 60px; }
-  /*honda*/
   .container_motoshonda {
+    /*honda*/
     /*yamaha*/
     /*ktm*/ }
     .container_motoshonda .card-honda {
@@ -401,17 +401,22 @@ form {
     width: 200%;
     padding-right: 5px;
     margin-left: -240px; }
-  .container_financiacion-fluid section div #formFinanciacion {
+  #formFinanciacion {
     display: none; }
-  .container_financiacion-fluid section div #carouselFinanciacion {
-    margin-top: 40rem; }
+  #carouselFinanciacion {
+    display: none; }
   /*tabla*/
   .table {
     margin: 5px; }
   /*contacto*/
-  .card_contacto-header {
+  .container_contacto-fluid .card_contacto-header {
     font-size: 50px;
-    margin-left: 20px; }
+    padding-top: 20px;
+    margin-left: 50px; }
+  .container_contacto-fluid .card_contacto-body ul li {
+    margin-top: 50px;
+    margin-left: -80px;
+    font-size: 20px; }
   .form-contacto {
     margin-top: 25rem;
     margin-left: 30px; } }
@@ -450,55 +455,56 @@ form {
   .card-text {
     font-size: 12px; }
   /*honda*/
-  .card-honda {
+  .container_motoshonda .card-honda {
     width: 120%; }
-  .card__honda-title {
+  .container_motoshonda .card__honda-title {
     margin-left: none;
     font-size: 80px; }
-  .titulo-honda {
+  .container_motoshonda .titulo-honda {
     margin-top: 60px;
     margin-left: 100px;
-    font-size: 50px; }
-  .descripcion-motos {
+    font-size: 40px; }
+  .container_motoshonda .descripcion-motos {
     font-size: 13px;
     margin-left: 100px; }
-  .imagen-derecha {
+  .container_motoshonda .imagen-derecha {
     width: 100%; }
-  .imagen-izquierda {
+  .container_motoshonda .imagen-izquierda {
     position: absolute;
     width: 100%;
     margin-right: -90px;
     border-radius: 15px; }
-  .imagen__cbr300-izquierda {
+  .container_motoshonda .imagen__cbr300-izquierda {
     margin-top: none;
     width: 90%;
     margin-left: -30px; }
-  .cbr500 {
+  .container_motoshonda .cbr500 {
     margin-top: -40px; }
   /*Yamaha*/
-  .titulo-yamaha {
+  .container_motoshonda .titulo-yamaha {
     font-size: 60px;
     margin-top: 10px; }
-  .titulo__mt09-yamaha {
+  .container_motoshonda .titulo__mt09-yamaha {
     margin-top: 5px;
     font-size: 60px; }
+  .container_motoshonda .titulo_consulta {
+    font-size: 60px;
+    margin-top: 30rem;
+    margin-left: -30rem; }
   section form {
     width: 80%;
     margin-top: -25rem;
     margin-left: 7rem; }
-  .titulo_consulta {
-    font-size: 60px;
-    margin-top: 30rem;
-    margin-left: -30rem; }
-  /*ktm*/
-  .titulo-ktm {
-    font-size: 40px;
-    margin-top: 30px; }
-  .titulo__790-ktm {
-    font-size: 40px;
-    margin-top: 80px; }
-  #ktm-790 {
-    margin-top: 40px; }
+  .container_motoshonda {
+    /*ktm*/ }
+    .container_motoshonda .titulo-ktm {
+      font-size: 40px;
+      margin-top: 30px; }
+    .container_motoshonda .titulo__790-ktm {
+      font-size: 40px;
+      margin-top: 80px; }
+    .container_motoshonda #ktm-790 {
+      margin-top: 40px; }
   #carouselExampleSlidesOnly {
     margin-top: -10rem;
     margin-left: 5rem; }
@@ -506,8 +512,8 @@ form {
     margin-top: 20px;
     margin-bottom: 400px;
     margin-left: 50px; }
-  #button-financiacion {
-    margin-top: 30px; }
+  .container_financiacion-fluid #button-financiacion {
+    margin-top: 50px; }
   /*contacto*/
   .container_contacto-fluid {
     margin-top: 30rem; }

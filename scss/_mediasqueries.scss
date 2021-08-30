@@ -90,9 +90,8 @@
         padding-left: 90px;
         margin-top: 60px;
     }
+    .container_motoshonda { 
     /*honda*/
-    .container_motoshonda {
-        
     .card-honda {
         margin-left: -85px;
         width: 130%;
@@ -196,7 +195,7 @@
         border-radius: 15px;
         margin-left: -30px;
     }
-}
+    }
     .container-footer {
         margin-top: 20px;
         padding-top: 20px;
@@ -219,33 +218,39 @@
         margin-left: 20px;        
     }
     /*Financiacion*/ 
-    .container_financiacion-fluid {
     
-    .financiacion {
+    
+    .container_financiacion-fluid .financiacion {
         width: 200%;
         margin-left: -240px;
     }
-    .ahora12 {
+    .container_financiacion-fluid .ahora12 {
         margin-top: 50px;
         width: 200%;
         padding-right: 5px;
         margin-left: -240px;
     }
-    section div #formFinanciacion {
+    #formFinanciacion {
        display: none;
     }
-    section div #carouselFinanciacion {
-        margin-top: 40rem;
+    #carouselFinanciacion {
+        display: none;
     }
-}
+
     /*tabla*/
     .table {
         margin: 5px;
     }
     /*contacto*/
-    .card_contacto-header {
+    .container_contacto-fluid .card_contacto-header {
         font-size: 50px;
-        margin-left: 20px;
+        padding-top: 20px;
+        margin-left: 50px;
+    }
+    .container_contacto-fluid .card_contacto-body ul li {
+        margin-top: 50px;
+        margin-left: -80px;
+        font-size: 20px;
     }
     .form-contacto {
         margin-top: 25rem;
@@ -300,6 +305,7 @@
         font-size: 12px;
     }
      /*honda*/
+     .container_motoshonda {
      .card-honda {
         width: 120%;
     }
@@ -310,7 +316,7 @@
     .titulo-honda {
         margin-top: 60px;
         margin-left: 100px;
-        font-size: 50px;
+        font-size: 40px;
     }
     .descripcion-motos {
         font-size: 13px;
@@ -334,7 +340,9 @@
     .cbr500 {
         margin-top: -40px;
     }
+}
     /*Yamaha*/
+    .container_motoshonda {
     .titulo-yamaha {
         font-size: 60px;
         margin-top: 10px;
@@ -343,16 +351,19 @@
         margin-top: 5px;
         font-size: 60px;
     }
-    section form {
-        width: 80%;
-        margin-top: -25rem;
-        margin-left: 7rem;
-    }
+    
     .titulo_consulta {
         font-size: 60px;
         margin-top: 30rem;
         margin-left: -30rem;
     }
+}
+    section form {
+        width: 80%;
+        margin-top: -25rem;
+        margin-left: 7rem;
+    }
+    .container_motoshonda {
     /*ktm*/
     .titulo-ktm {
         font-size: 40px;
@@ -365,6 +376,7 @@
     #ktm-790 {
         margin-top: 40px;
     }
+}
     #carouselExampleSlidesOnly {
         margin-top: -10rem;
         margin-left: 5rem;
@@ -374,8 +386,8 @@
        margin-bottom: 400px;
         margin-left: 50px;
     }
-    #button-financiacion {
-        margin-top: 30px;
+    .container_financiacion-fluid #button-financiacion  {
+        margin-top: 50px;
     }
     /*contacto*/
     .container_contacto-fluid {

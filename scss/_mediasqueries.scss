@@ -1,5 +1,5 @@
 /*Resolucion para dispositivos moviles*/
-@media only screen and (min-width : 320px) and (max-width : 480px){
+@media only screen  and (min-width : 320px) and (max-width : 480px){
     html, body {
         max-width: 100%;
         overflow-x: hidden;
@@ -35,17 +35,17 @@
     }
     .logoPrincipal {
         float: left;
-        margin-left: 20px;
+        margin-left: 50px;
         margin-top: -15px;
-        width: 50%;
+        width: 40%;
     }
     .navRedes {
         display: none;
     }
     .logoNav {
-        width: 100px;
-        padding: 40px;
-        margin-top: -240px;
+        width: 140px;
+        padding: 60px;
+        margin-top: -260px;
         margin-left: 15rem;
         
     }
@@ -60,21 +60,21 @@
     .carrousel-inner {
         width: 100%;
     }
-    .tecnico {
-        margin-top: 40rem;
+    .tecnico .card {
+        margin-top: 50rem;
     }
-    .card-header {
-        font-size: 40px;
+    h5 .card-header  {
+        font-size: 20px;
     }
     
-    .mapa {
+    .card-body .mapa {
         margin-left: -30px;
-        width: 120%;
+        width: 115%;
     }
     ul img {
         display: none;
     }
-    ul li {
+    .card-body ul li {
         padding-left: 30px;
         padding-top: 100px;
         font-size: 17px;
@@ -90,8 +90,9 @@
         padding-left: 90px;
         margin-top: 60px;
     }
-    
     /*honda*/
+    .container_motoshonda {
+        
     .card-honda {
         margin-left: -85px;
         width: 130%;
@@ -99,15 +100,17 @@
     .card__honda-title {
         margin-top: -20px;
         margin-left: -80px;
-        font-size: 20px;
+        font-size: 40px;
     }
     .titulo-honda {
         margin-top: 60px;
         margin-left: 10px;
-        font-size: 40px;
+        font-size: 20px;
     }
     .descripcion-motos {
+        margin-bottom: 20px;
         font-size: 13px;
+        margin-top: 30px;
         margin-left: -20px;
     }
     .imagen-derecha {
@@ -125,8 +128,8 @@
         clip-path: none;
     }
     .imagen__cbr300-izquierda {
-        margin-top: 475px;
-        width: 135%;
+        margin-top: 500px;
+        width: 150%;
         position: absolute;
         clip-path: none;
         border-radius: 15px;
@@ -193,7 +196,7 @@
         border-radius: 15px;
         margin-left: -30px;
     }
-    
+}
     .container-footer {
         margin-top: 20px;
         padding-top: 20px;
@@ -202,36 +205,39 @@
         display: flex;
         justify-content: center;
         flex-direction: row;
-        margin-left: 150px;
+        margin-left: 180px;
     }
     .logo2 {
         display: flex;
         justify-content: center;
         flex-direction: row;
         margin-top: -40px;
-        margin-left: 200px;
+        margin-left: 250px;
     }
     .ahora12 {
         margin-top: 20rem;
         margin-left: 20px;        
     }
     /*Financiacion*/ 
+    .container_financiacion-fluid {
+    
     .financiacion {
         width: 200%;
-        margin-left: -200px;
+        margin-left: -240px;
     }
     .ahora12 {
         margin-top: 50px;
         width: 200%;
         padding-right: 5px;
-        margin-left: -200px;
+        margin-left: -240px;
     }
-    #formFinanciacion {
+    section div #formFinanciacion {
        display: none;
     }
-    #carouselFinanciacion {
-        display: none;
+    section div #carouselFinanciacion {
+        margin-top: 40rem;
     }
+}
     /*tabla*/
     .table {
         margin: 5px;
@@ -245,6 +251,7 @@
         margin-top: 25rem;
         margin-left: 30px;
     }
+    
 }
 /*Media querie para laptops*/
 @media (min-width: 1281px) and (max-width: 1600px) {
@@ -394,5 +401,5 @@
         width: 50%;
         margin-top: 5rem;   
         margin-left: none;
- }
+    }
 }
